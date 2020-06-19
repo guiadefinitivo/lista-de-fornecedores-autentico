@@ -564,10 +564,10 @@ section.form .container {
   font-size: 20px;
 }
 #features1-b .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #ffffff;
+  background-color: #2969b0;
 }
 #features1-b .mbr-cards-col:nth-child(odd) .card-text {
-  color: #000000;
+  color: #ffffff;
 }
 #header3-c .mbr-section-title,
 #header3-c .mbr-section-subtitle {

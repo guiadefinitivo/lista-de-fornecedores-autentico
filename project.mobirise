@@ -22,7 +22,8 @@
       },
       "additionalSetColors": [
         "#ffbcbc",
-        "#009cdf"
+        "#009cdf",
+        "#282828"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -97,7 +98,7 @@
             "showBrand": false,
             "hideButtons": false,
             "sticky": true,
-            "collapsed": true,
+            "collapsed": false,
             "transparent": true,
             "bgColor": "#282828",
             "fontSize": "0.6",
@@ -117,8 +118,12 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ZAPGRAM FORNECEDORES</a>",
@@ -525,7 +530,7 @@
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": false,
-            "columnsColor": "#ffffff",
+            "columnsColor": "#2969b0",
             "paddingTop": 2,
             "paddingBottom": 2,
             "columns": "5",
@@ -533,7 +538,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -599,7 +604,7 @@
           },
           "media6": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true
@@ -635,10 +640,10 @@
           "_name": "features1",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#ffffff"
+              "background-color": "#2969b0"
             },
             ".mbr-cards-col:nth-child(odd) .card-text": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           },
           "_anchor": "features1-b"
@@ -726,117 +731,6 @@
           ],
           "_name": "msg-box7",
           "_anchor": "msg-box7-1"
-        },
-        {
-          "_params": {
-            "showBullets": true,
-            "fullWidth": false,
-            "spacing": 0,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "filterBgColor": false,
-            "bgColor": "#FFFFFF",
-            "showText": false,
-            "filter": false,
-            "images": [
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/foto2-353x626.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/foto2-353x626-353x626.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/code-man.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/code-man-small.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Creative",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/coworkers.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/coworkers-small.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/desktop.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/desktop-small.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/room-laptop-small.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Beautiful",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/table.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/table-small.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/windows-books.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/windows-books-small.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/working-area.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/working-area-small.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              }
-            ]
-          },
-          "articleLayout": false,
-          "allItem": "All",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-2"
         },
         {
           "_params": {
