@@ -558,13 +558,13 @@ section.form .container {
   font-size: 20px;
 }
 #features1-a .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #2969b0;
+  background-color: #000000;
 }
 #features1-a .mbr-cards-col:nth-child(odd) .card-title {
   font-size: 20px;
 }
 #features1-b .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #2969b0;
+  background-color: #000000;
 }
 #features1-b .mbr-cards-col:nth-child(odd) .card-text {
   color: #ffffff;
