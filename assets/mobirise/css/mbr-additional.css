@@ -584,13 +584,36 @@ section.form .container {
   color: #00162d;
   font-family: 'Ubuntu', sans-serif;
 }
+#header3-19 .mbr-section-title,
+#header3-19 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-19 .mbr-section-title {
+  font-size: 25px;
+  color: #00162d;
+  font-family: 'Ubuntu', sans-serif;
+}
+#header3-19 .mbr-section-subtitle {
+  color: #ffffff;
+  text-align: left;
+}
+#header3-19 .mbr-section-subtitle B {
+  font-family: 'Montserrat', sans-serif;
+}
+#content6-1e .lead {
+  color: #e20d0a;
+}
+#content6-1e .lead P {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+}
 #header3-1t .mbr-section-title,
 #header3-1t .mbr-section-subtitle {
   text-align: center;
 }
 #header3-1t .mbr-section-title {
   font-size: 25px;
-  color: #ffffff;
+  color: #00162d;
   font-family: 'Ubuntu', sans-serif;
 }
 #header3-1t .mbr-section-subtitle {
@@ -630,7 +653,7 @@ section.form .container {
 }
 #header3-1r .mbr-section-title {
   font-size: 25px;
-  color: #ffffff;
+  color: #00162d;
   font-family: 'Ubuntu', sans-serif;
 }
 #header3-1r .mbr-section-subtitle {
@@ -645,29 +668,6 @@ section.form .container {
 }
 #msg-box5-1z SPAN {
   font-size: 18px;
-}
-#header3-19 .mbr-section-title,
-#header3-19 .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-19 .mbr-section-title {
-  font-size: 25px;
-  color: #00162d;
-  font-family: 'Ubuntu', sans-serif;
-}
-#header3-19 .mbr-section-subtitle {
-  color: #ffffff;
-  text-align: left;
-}
-#header3-19 .mbr-section-subtitle B {
-  font-family: 'Montserrat', sans-serif;
-}
-#content6-1e .lead {
-  color: #e20d0a;
-}
-#content6-1e .lead P {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 17px;
 }
 #header3-20 .mbr-section-title,
 #header3-20 .mbr-section-subtitle {
@@ -687,8 +687,8 @@ section.form .container {
   color: #bcbcbc;
 }
 #features7-5 .iconbox {
-  background-color: #2969b0;
-  border-color: #2969b0;
+  background-color: #00a2fb;
+  border-color: #00a2fb;
 }
 #features7-5 P {
   font-size: 19px;
@@ -698,7 +698,7 @@ section.form .container {
   font-size: 19px;
 }
 #msg-box2-n .mbr-section-subtitle {
-  color: #28324e;
+  color: #00a2fb;
 }
 #msg-box2-n .btn {
   font-size: 20px;

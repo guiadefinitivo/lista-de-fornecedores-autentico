@@ -245,10 +245,10 @@
             "imageSize": 50,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/moda-evangelica-saias-fotos-1024x1024-945x756.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -292,7 +292,65 @@
             },
             ".mbr-section-title": {
               "font-size": "25px",
+              "color": "#00162d",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            ".mbr-section-subtitle": {
               "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle B": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#efefef"
+          },
+          "title": "<span style=\"font-weight: normal;\">VOCÊ PASSA POR ALGUMA DAS</span> DIFICULDADES ABAIXO?<br>",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-19"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "1",
+            "bgColor": "#efefef"
+          },
+          "text1": "<p><b>✔ Pouco dinheiro para Investir</b></p><p><b><br></b></p><p><b>✔ Não encontra&nbsp;</b><b>Fornecedores de Confiança</b></p><p><b><br></b></p><p> \n</p><p>\n</p><p><b>✔ Dificuldade em falar com os fornecedores</b></p><p><br></p><p>\n</p><p>\n</p><p><b>✔ Margem de Lucro Baixa</b></p><p><b><br></b></p>",
+          "text2": "<p><b>✔ Compras em pequena quantidade</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Fréte Caro para sua região</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Demora nas entregas</b></p><p><br></p><p><b>✔ Produtos com defeito ou sem garantia</b></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-1e",
+          "_styles": {
+            ".lead": {
+              "color": "#e20d0a"
+            },
+            ".lead P": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-size": "17px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px",
+              "color": "#00162d",
               "font-family": "'Ubuntu', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             },
@@ -465,8 +523,8 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/qual-melhor-lista-de-fornecedores-fornecedoresdamoda.com-500x385.jpg",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
+              "link": "index.html",
               "alt": "",
               "title": ""
             },
@@ -525,8 +583,8 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/qual-melhor-lista-de-fornecedores-fornecedoresdamoda.com-500x385.jpg",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
+              "link": "index.html",
               "alt": "",
               "title": ""
             },
@@ -566,7 +624,7 @@
             },
             ".mbr-section-title": {
               "font-size": "25px",
-              "color": "#ffffff",
+              "color": "#00162d",
               "font-family": "'Ubuntu', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             },
@@ -583,9 +641,9 @@
             "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": "1",
-            "bgColor": "#00162d"
+            "bgColor": "#f5f5f5"
           },
-          "title": "<span style=\"font-weight: normal;\">&nbsp;FORNECEDORES DE QUALIDADE</span> <span style=\"font-weight: normal;\">SÓ CONSEGUE POR</span> <br>INDICAÇÃO <span style=\"font-weight: normal;\">E NÃO POR</span> PESQUISA NO GOOGLE.",
+          "title": "<span style=\"font-weight: normal;\">&nbsp;FORNECEDORES DE QUALIDADE</span> <span style=\"font-weight: normal;\">SÓ CONSEGUE POR</span> <br>INDICAÇÃO <span style=\"font-weight: normal;\">E NÃO POR</span> PESQUISA <span style=\"font-weight: normal;\">NO</span> GOOGLE.",
           "meta": "",
           "_tags": [
             "Theme"
@@ -619,8 +677,8 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/qual-melhor-lista-de-fornecedores-fornecedoresdamoda.com-500x385.jpg",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
+              "link": "index.html",
               "alt": "",
               "title": ""
             },
@@ -652,64 +710,6 @@
             }
           },
           "_anchor": "msg-box5-1z"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "font-size": "25px",
-              "color": "#00162d",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#ffffff",
-              "text-align": "left"
-            },
-            ".mbr-section-subtitle B": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            }
-          },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": 1,
-            "paddingBottom": "0",
-            "bgColor": "#efefef"
-          },
-          "title": "<span style=\"font-weight: normal;\">VOCÊ PASSA POR ALGUMA DAS</span> DIFICULDADES ABAIXO?<br>",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-19"
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": "1",
-            "bgColor": "#efefef"
-          },
-          "text1": "<p><b>✔ Pouco dinheiro para Investir</b></p><p><b><br></b></p><p><b>✔ Não encontra&nbsp;</b><b>Fornecedores de Confiança</b></p><p><b><br></b></p><p> \n</p><p>\n</p><p><b>✔ Dificuldade em falar com os fornecedores</b></p><p><br></p><p>\n</p><p>\n</p><p><b>✔ Margem de Lucro Baixa</b></p><p><b><br></b></p>",
-          "text2": "<p><b>✔ Compras em pequena quantidade</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Fréte Caro para sua região</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Demora nas entregas</b></p><p><br></p><p><b>✔ Produtos com defeito ou sem garantia</b></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content6",
-          "_anchor": "content6-1e",
-          "_styles": {
-            ".lead": {
-              "color": "#e20d0a"
-            },
-            ".lead P": {
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
-              "font-size": "17px"
-            }
-          }
         },
         {
           "_styles": {
@@ -751,7 +751,7 @@
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": false,
-            "iconsBgColor": "#2969b0",
+            "iconsBgColor": "#00a2fb",
             "paddingTop": "1",
             "paddingBottom": "0",
             "columns": 4,
@@ -845,8 +845,8 @@
               "color": "#bcbcbc"
             },
             ".iconbox": {
-              "background-color": "#2969b0",
-              "border-color": "#2969b0"
+              "background-color": "#00a2fb",
+              "border-color": "#00a2fb"
             },
             "P": {
               "font-size": "19px"
@@ -886,7 +886,7 @@
               "font-size": "19px"
             },
             ".mbr-section-subtitle": {
-              "color": "#28324e"
+              "color": "#00a2fb"
             },
             ".btn": {
               "font-size": "20px"
