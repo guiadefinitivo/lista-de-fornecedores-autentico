@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise3",
       "styling": {
-        "primaryColor": "#43f200",
+        "primaryColor": "#00cc2b",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -21,19 +21,19 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#43f200",
         "#00162d",
-        "#00b2ff",
-        "#ffbcbc",
-        "#009cdf",
-        "#282828",
-        "#ff0000"
+        "#00a2fb",
+        "#f5f5f5",
+        "#510054",
+        "#e20d0a",
+        "#00cc2b",
+        "#ff00bb"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.6",
     "siteFonts": [],
-    "uniqCompNum": 61,
+    "uniqCompNum": 73,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "noImageResize": null,
@@ -83,47 +83,37 @@
         },
         {
           "_styles": {
-            ".mbr-section-title, .lead": {
-              "color": "#fff"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             },
             ".mbr-section-title": {
+              "font-size": "25px",
+              "color": "#00162d",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            ".mbr-section-subtitle": {
               "color": "#ffffff",
-              "font-size": "22px"
+              "text-align": "left"
             },
-            ".lead": {
-              "color": "#009cdf"
-            },
-            ".lead P": {
-              "font-size": "20px"
+            ".mbr-section-subtitle B": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           },
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButton": false,
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/fornecedoresdamoda.com-lista-de-fornecedores-de-roupas.png",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
           },
-          "title": "DESCUBRA a LISTA DE FORNECEDORES<span style=\"font-weight: normal;\">&nbsp;QUE </span>GRANDES LOJISTAS<span style=\"font-weight: normal;\"> e REVENDEDORES NÃO QUEREM QUE VOCÊ CONHEÇA, FINALMENTE SERÃO</span>&nbsp;REVELADOS!",
-          "text": "<p><b>A melhor lista de fornecedores, selecionada especialmente para você atender a sua demanda!</b></p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "title": "<span style=\"font-weight: normal;\">Está </span>não é qualquer Lista de Fornecedores,<span style=\"font-weight: normal;\"> são os Meus Fornecedores, que possuem os </span>Melhores Preços,<span style=\"font-weight: normal;\"> destinado para quem </span>quer Vender muito<span style=\"font-weight: normal;\"> no Mercado Livre, Instagram, Loja online, OLX, Grupos de Facebook ou Lojas Físicas.</span>",
+          "meta": "",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-0"
+          "_name": "header3",
+          "_anchor": "header3-1u"
         },
         {
           "_styles": {
@@ -171,7 +161,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#43f200!important"
+              "color": "#00cc2b!important"
             },
             "A": {
               "font-size": "16px",
@@ -230,32 +220,36 @@
               "color": "#fff"
             },
             "H3": {
-              "font-size": "48px",
+              "font-size": "36px",
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "color": "#efefef"
+              "color": "#00162d"
             },
             ".btn": {
-              "font-size": "16px"
+              "font-size": "18px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             "P": {
-              "font-size": "22px",
-              "color": "#00b2ff"
+              "font-size": "20px",
+              "color": "#000000",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             }
           },
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "inverse": false,
+            "inverse": true,
             "imageSize": 50,
-            "paddingTop": "2",
+            "paddingTop": "0",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#000000",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -283,7 +277,7 @@
             }
           },
           "title": "FORNECEDORES DA MODA",
-          "text": "<b>Elimine</b> as<b> Maiores Barreiras</b> que é encontrar Bons Fornecedores&nbsp;<b>Criamos</b> a <b>Melhor Lista de Fornecedores</b> Para Lojistas, Revendedores, Autonomos e para todos que deseja começar a revender produtos e<b> ter lucro de até 300%&nbsp;</b>",
+          "text": "<b>Elimine</b> as<b> Maiores Barreiras</b> que é encontrar<b> Bons Fornecedores,</b>&nbsp;Criamos a <b>Melhor Lista de Fornecedores</b> Para<b> Lojistas, Revendedores, Autonomos</b> e para todos que deseja começar a <b>revender produtos</b> e<b> ter lucro de até 300%&nbsp;</b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://mon.net.br/xgboj?src=meusite\" data-toolbar=\"-mbrBtnMove\">QUERO TER ACESSO AOS FORNECEDORES AGORA!</a> ",
           "_tags": [
             "Theme"
@@ -298,7 +292,375 @@
             },
             ".mbr-section-title": {
               "font-size": "25px",
-              "color": "#282828",
+              "color": "#ffffff",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle B": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#00162d"
+          },
+          "title": "<span style=\"font-weight: normal;\">CHEGA DE PROCURAR POR</span> LISTAS DE FORNECEDORES NA INTERNET!",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1t"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "27",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f5f5f5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda.com-500x338.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.</span>",
+          "text": "Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-1v",
+          "_styles": {
+            "H3": {
+              "font-size": "25px"
+            },
+            "SPAN": {
+              "font-size": "18px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "27",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f5f5f5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-e-confiavel-500x377.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">A mesma facilidade com que achamos bons conteúdos também os descartamos, justamente por se tratar de informações desatualizadas, fakes ou suspeitas.\n</span>",
+          "text": "Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "25px"
+            },
+            "SPAN": {
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "msg-box5-1w"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "27",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f5f5f5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/qual-melhor-lista-de-fornecedores-fornecedoresdamoda.com-500x385.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">E fica ainda mais difícil quando se trata de Fornecedor de Qualidade e segurança. não é mesmo?</span>",
+          "text": "Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "25px"
+            },
+            "SPAN": {
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "msg-box5-1x"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "27",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f5f5f5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/qual-melhor-lista-de-fornecedores-fornecedoresdamoda.com-500x385.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Afinal, quem é que vai Entregar o Ouro sabendo que pode ganhar MUITO com isso?</span>",
+          "text": "Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "25px"
+            },
+            "SPAN": {
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "msg-box5-1y"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px",
+              "color": "#ffffff",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle B": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#00162d"
+          },
+          "title": "<span style=\"font-weight: normal;\">&nbsp;FORNECEDORES DE QUALIDADE</span> <span style=\"font-weight: normal;\">SÓ CONSEGUE POR</span> <br>INDICAÇÃO <span style=\"font-weight: normal;\">E NÃO POR</span> PESQUISA NO GOOGLE.",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1r"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "35",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f5f5f5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/qual-melhor-lista-de-fornecedores-fornecedoresdamoda.com-500x385.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Atualmente existem inúmeras pessoas que se aproveitam das outras, vendendo listas de fornecedores de baixíssima qualidade, sem credibilidade e que te darão muito mais dor de cabeça do que tranquilidade.&nbsp;</span>",
+          "text": "Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "25px"
+            },
+            "SPAN": {
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "msg-box5-1z"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px",
+              "color": "#00162d",
               "font-family": "'Ubuntu', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             },
@@ -317,7 +679,7 @@
             "paddingBottom": "0",
             "bgColor": "#efefef"
           },
-          "title": "Você possui um dos problemas abaixo?<br>",
+          "title": "<span style=\"font-weight: normal;\">VOCÊ PASSA POR ALGUMA DAS</span> DIFICULDADES ABAIXO?<br>",
           "meta": "",
           "_tags": [
             "Theme"
@@ -328,11 +690,11 @@
         {
           "_params": {
             "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingBottom": "1",
             "bgColor": "#efefef"
           },
-          "text1": "<p>✔️ Encontrar Fornecedores de Confiança</p><p><br></p><p> \n</p><p>\n</p><p>✔️ Dificuldade na comunicação com os fornecedores</p><p><br></p><p>\n</p><p>\n</p><p>✔️ Margem de Lucro Baixa</p><p><br></p><p>\n</p><p>\n</p><p>✔️ Produtos com defeito ou sem garantia</p><p><br></p>",
-          "text2": "<p>✔️ Compras em pequena quantidade</p><p><br></p><p> \n</p><p>\n</p><p>✔️ Opta por fretes mais baratos para evitar taxação</p><p><br></p><p> \n</p><p>\n</p><p>✔️ Demora na entrega</p>",
+          "text1": "<p><b>✔ Pouco dinheiro para Investir</b></p><p><b><br></b></p><p><b>✔ Não encontra&nbsp;</b><b>Fornecedores de Confiança</b></p><p><b><br></b></p><p> \n</p><p>\n</p><p><b>✔ Dificuldade em falar com os fornecedores</b></p><p><br></p><p>\n</p><p>\n</p><p><b>✔ Margem de Lucro Baixa</b></p><p><b><br></b></p>",
+          "text2": "<p><b>✔ Compras em pequena quantidade</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Fréte Caro para sua região</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Demora nas entregas</b></p><p><br></p><p><b>✔ Produtos com defeito ou sem garantia</b></p>",
           "_tags": [
             "Theme"
           ],
@@ -340,11 +702,12 @@
           "_anchor": "content6-1e",
           "_styles": {
             ".lead": {
-              "color": "#282828"
+              "color": "#e20d0a"
             },
             ".lead P": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-size": "17px"
             }
           }
         },
@@ -354,22 +717,31 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "font-size": "20px"
+              "font-size": "25px",
+              "color": "#ffffff",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#00a2fb",
+              "font-size": "21px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
             }
           },
           "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#00162d"
           },
-          "title": "POR QUE COMPRAR A LISTA FORNECEDORES?",
-          "meta": "By John Smith posted July 20, 2016",
+          "title": "<span style=\"font-weight: normal;\">CHEGOU A</span> SUA VEZ <span style=\"font-weight: normal;\">DE TER ACESSO AOS</span> FORNECEDORES DA MODA <span style=\"font-weight: normal;\">Mais Cobiçados do</span> BRASIL",
+          "meta": "Através de uma lista filtrada, categorizada e atualizada.",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-7"
+          "_anchor": "header3-20"
         },
         {
           "_inherit": "features4",
@@ -380,14 +752,14 @@
             "ShowTexts": true,
             "showButtons": false,
             "iconsBgColor": "#2969b0",
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "columns": 4,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#efefef",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -475,14 +847,17 @@
             ".iconbox": {
               "background-color": "#2969b0",
               "border-color": "#2969b0"
+            },
+            "P": {
+              "font-size": "19px"
             }
           },
-          "title1": "MAIOR % DE LUCROS\n<div><br></div>",
+          "title1": "LUCROS DE ATÉ 300%&nbsp;<div><br></div>",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "&nbsp;Fornecedores com os melhores preços.<br>com vendas no atacado e Varejo.<br>",
-          "title2": "LISTA SECRETA CONFIAVEL&nbsp;",
+          "caption1": "&nbsp;Fornecedores com os melhores preços.<br>com vendas no atacado e Varejo.<br>Para pessoa Fisica ou juridica.",
+          "title2": "LISTA EXCLUSIVA E CONFIAVEL&nbsp;",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "Fornecedores confiaveis selecionados<br>e Aprovados.",
+          "caption2": "Fornecedores confiaveis selecionados e Aprovados para garantir otima esperiencia.<br><br>",
           "title3": "DIVERSOS PRODUTOS",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Aumentando a diversificação em seu negocio. seja loja fisica ou online.",
@@ -561,8 +936,8 @@
           },
           "_params": {
             "showMeta": true,
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgColor": "#00162d"
           },
           "title": "O que você terá acesso na lista de fornecedores?",
@@ -884,6 +1259,29 @@
           "_anchor": "header3-1a"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "POR QUE COMPRAR A LISTA FORNECEDORES?",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-7"
+        },
+        {
           "_params": {
             "showImages": true,
             "showTitles": true,
@@ -1028,30 +1426,6 @@
         },
         {
           "_params": {
-            "showText": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/capturarjiu-681x133.png",
-              "width": 1400,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image1",
-          "_anchor": "image1-1c"
-        },
-        {
-          "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
@@ -1076,17 +1450,18 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "font-size": "20px"
+              "font-size": "30px",
+              "color": "#00162d"
             }
           },
           "_params": {
-            "showMeta": true,
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "title": "Title with Solid Background Color",
-          "meta": "By John Smith posted July 20, 2016",
+          "title": "DÚVIDAS MAIS FREQUENTES:",
+          "meta": "",
           "_tags": [
             "Theme"
           ],
@@ -1164,7 +1539,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p><b>COMO ENTRAR EM CONTATO?</b> </p><p>Temos um e-mail para caso de problemas e dúvidas:</p></blockquote>",
+          "text": "<blockquote><p><b>COMO ENTRAR EM CONTATO?</b> </p><p>Temos contato via <a href=\"https://api.whatsapp.com/send?phone=5511946612847&amp;text=Ola!%20Estou%20no%20site%20Fornecedores%20da%20moda%20quero%20saber%20mais.\">Whatsapp</a> ou um <a href=\"mailto:contato@fornecedoresdamoda.com\">e-mail</a> para caso de problemas e dúvidas:</p></blockquote>",
           "_tags": [
             "Theme"
           ],
@@ -1217,6 +1592,50 @@
               "font-size": "14px"
             }
           }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .lead": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-size": "22px"
+            },
+            ".lead": {
+              "color": "#009cdf"
+            },
+            ".lead P": {
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/fornecedoresdamoda.com-lista-de-fornecedores-de-roupas.png",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "DESCUBRA a LISTA DE FORNECEDORES<span style=\"font-weight: normal;\">&nbsp;QUE </span>GRANDES LOJISTAS<span style=\"font-weight: normal;\"> e REVENDEDORES NÃO QUEREM QUE VOCÊ CONHEÇA, FINALMENTE SERÃO</span>&nbsp;REVELADOS!",
+          "text": "<p><b>A melhor lista de fornecedores, selecionada especialmente para você atender a sua demanda!</b></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1p"
         }
       ]
     },
