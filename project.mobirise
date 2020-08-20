@@ -176,7 +176,7 @@
             "logo": false,
             "showBrand": false,
             "hideButtons": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": false,
             "transparent": true,
             "bgColor": "#00162d",
@@ -243,8 +243,8 @@
             "showButtons": true,
             "inverse": true,
             "imageSize": 50,
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/moda_evangelica_saias_fotos_1024x1024-945x756.jpg",
             "parallax": true,
@@ -523,7 +523,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/fornecedores-confiaveis-500x377.jpg",
+              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
               "link": "index.html",
               "alt": "",
               "title": ""
@@ -583,7 +583,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/fornecedores-confiaveis-500x377.jpg",
+              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
               "link": "index.html",
               "alt": "",
               "title": ""
@@ -677,7 +677,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/fornecedores-confiaveis-500x377.jpg",
+              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
               "link": "index.html",
               "alt": "",
               "title": ""
@@ -1623,7 +1623,7 @@
             "logo": false,
             "showBrand": false,
             "hideButtons": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": false,
             "transparent": true,
             "bgColor": "#00162d",
