@@ -33,7 +33,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.6",
     "siteFonts": [],
-    "uniqCompNum": 73,
+    "uniqCompNum": 76,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "noImageResize": null,
@@ -214,39 +214,15 @@
           "_anchor": "menu-6"
         },
         {
-          "_inherit": "msg-box5",
-          "_styles": {
-            "h3, p": {
-              "color": "#fff"
-            },
-            "H3": {
-              "font-size": "36px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "color": "#00a2fb"
-            },
-            ".btn": {
-              "font-size": "18px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            },
-            "P": {
-              "font-size": "20px",
-              "color": "#f5f5f5",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            }
-          },
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": true,
             "inverse": true,
-            "imageSize": 50,
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "showArrow": true,
+            "imageSize": "48",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/moda_evangelica_saias_fotos_1024x1024-945x756.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#00162d",
@@ -254,36 +230,45 @@
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "overlayOpacity": 0.3
           },
           "media": {
             "image": {
+              "active": true,
               "width": 1400,
-              "src": "@THEME_PATH@/components/_images/desert.jpg"
+              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg"
             },
             "video": {
-              "active": true,
-              "src": "https://youtu.be/_KjFQdsZCOY",
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
               "aspectratio": "16:9",
-              "autoplay": "on",
+              "autoplay": false,
               "loop": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "class": "mbr-iconfont mbr-iconfont-header2",
               "link": "",
               "size": 250
             }
           },
-          "title": "FORNECEDORES DA MODA",
-          "text": "<b>Elimine</b> as<b> Maiores Barreiras</b> que é encontrar<b> Bons Fornecedores,</b>&nbsp;Criamos a <b>Melhor Lista de Fornecedores</b> Para<b> Lojistas, Revendedores, Autonomos</b> e para todos que deseja começar a <b>revender produtos</b> e<b> ter lucro de até 300%&nbsp;</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://mon.net.br/xgboj?src=meusite\" data-toolbar=\"-mbrBtnMove\">QUERO TER ACESSO AOS FORNECEDORES AGORA!</a> ",
+          "title": "Fornecedores da Moda",
+          "text": "<b>Elimine</b> as <b>Maiores Barreiras</b> que é encontrar <b>Bons Fornecedores</b>, Criamos a Melhor <b>Lista de Fornecedores</b> Para <b>Lojistas, Revendedores, Autonomos</b> e para todos que deseja começar a <b>revender produtos</b> e ter <b>lucro de até 200% </b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://mon.net.br/xgboj?src=meusite\" data-toolbar=\"-mbrBtnMove\">QUERO TER ACESSO AOS FORNECEDORES AGORA!</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box7",
-          "_anchor": "msg-box7-1"
+          "_name": "header2",
+          "_anchor": "header2-23",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#00a2fb",
+              "font-size": "30px"
+            },
+            ".btn": {
+              "font-size": "18px"
+            }
+          }
         },
         {
           "_styles": {
@@ -463,7 +448,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-e-confiavel-500x377.jpg",
+              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
               "link": "",
               "alt": "",
               "title": ""
@@ -503,7 +488,7 @@
             "showText": false,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "39",
+            "imageSize": "35",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -523,7 +508,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
+              "src": "@PROJECT_PATH@/assets/images/fornecedores-confiaveis-500x377.jpg",
               "link": "index.html",
               "alt": "",
               "title": ""
@@ -555,22 +540,22 @@
               "font-size": "18px"
             }
           },
-          "_anchor": "msg-box5-1x"
+          "_anchor": "msg-box5-21"
         },
         {
           "_params": {
             "showTitle": true,
             "showText": false,
             "showButtons": false,
-            "inverse": true,
-            "imageSize": "40",
+            "inverse": false,
+            "imageSize": "35",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f5f5f5",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -584,7 +569,7 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
-              "link": "index.html",
+              "link": "",
               "alt": "",
               "title": ""
             },
@@ -615,7 +600,7 @@
               "font-size": "18px"
             }
           },
-          "_anchor": "msg-box5-1y"
+          "_anchor": "msg-box5-22"
         },
         {
           "_styles": {
@@ -677,7 +662,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
+              "src": "@PROJECT_PATH@/assets/images/fornecedores-confiaveis-500x377.jpg",
               "link": "index.html",
               "alt": "",
               "title": ""
