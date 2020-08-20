@@ -103,8 +103,8 @@
           },
           "_params": {
             "showMeta": true,
-            "paddingTop": 1,
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgColor": "#ffffff"
           },
           "title": "<span style=\"font-weight: normal;\">Está </span>não é qualquer Lista de Fornecedores,<span style=\"font-weight: normal;\"> são os Meus Fornecedores, que possuem os </span>Melhores Preços,<span style=\"font-weight: normal;\"> destinado para quem </span>quer Vender muito<span style=\"font-weight: normal;\"> no Mercado Livre, Instagram, Loja online, OLX, Grupos de Facebook ou Lojas Físicas.</span>",
@@ -232,7 +232,7 @@
             },
             "P": {
               "font-size": "20px",
-              "color": "#000000",
+              "color": "#00162d",
               "font-family": "'Ubuntu', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             }
@@ -243,7 +243,7 @@
             "showButtons": true,
             "inverse": true,
             "imageSize": 50,
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
@@ -306,9 +306,9 @@
             }
           },
           "_params": {
-            "showMeta": true,
-            "paddingTop": 1,
-            "paddingBottom": "0",
+            "showMeta": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgColor": "#00162d"
           },
           "title": "<span style=\"font-weight: normal;\">CHEGA DE PROCURAR POR</span> LISTAS DE FORNECEDORES NA INTERNET!",
@@ -325,8 +325,8 @@
             "showText": false,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "27",
-            "paddingTop": "0",
+            "imageSize": "41",
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -385,8 +385,8 @@
             "showText": false,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "27",
-            "paddingTop": "0",
+            "imageSize": "40",
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -445,8 +445,8 @@
             "showText": false,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "27",
-            "paddingTop": "0",
+            "imageSize": "39",
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -505,8 +505,8 @@
             "showText": false,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "27",
-            "paddingTop": "0",
+            "imageSize": "40",
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -580,9 +580,9 @@
             }
           },
           "_params": {
-            "showMeta": true,
+            "showMeta": false,
             "paddingTop": 1,
-            "paddingBottom": "0",
+            "paddingBottom": "1",
             "bgColor": "#00162d"
           },
           "title": "<span style=\"font-weight: normal;\">&nbsp;FORNECEDORES DE QUALIDADE</span> <span style=\"font-weight: normal;\">SÓ CONSEGUE POR</span> <br>INDICAÇÃO <span style=\"font-weight: normal;\">E NÃO POR</span> PESQUISA NO GOOGLE.",
