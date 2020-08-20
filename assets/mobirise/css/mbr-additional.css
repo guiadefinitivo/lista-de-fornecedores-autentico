@@ -80,6 +80,12 @@ h6,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Montserrat', sans-serif;
 }
+.btn {
+  border-radius: 1.6em;
+}
+.mbr-subscribe .btn {
+  border-radius: 1.6em !important;
+}
 .btn-sm,
 .lead a,
 .lead blockquote,
@@ -436,9 +442,6 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #00cc2b;
 }
-.scrollToTop_wraper {
-  display: none;
-}
 .form-control {
   padding: 0.9rem;
 }
@@ -573,7 +576,7 @@ section.form .container {
 #msg-box7-1 H3 {
   font-size: 36px;
   font-family: 'Oswald', sans-serif;
-  color: #00162d;
+  color: #00a2fb;
 }
 #msg-box7-1 .btn {
   font-size: 18px;
@@ -581,7 +584,7 @@ section.form .container {
 }
 #msg-box7-1 P {
   font-size: 20px;
-  color: #00162d;
+  color: #f5f5f5;
   font-family: 'Ubuntu', sans-serif;
 }
 #header3-19 .mbr-section-title,
@@ -613,7 +616,7 @@ section.form .container {
 }
 #header3-1t .mbr-section-title {
   font-size: 25px;
-  color: #00162d;
+  color: #ffffff;
   font-family: 'Ubuntu', sans-serif;
 }
 #header3-1t .mbr-section-subtitle {
@@ -653,7 +656,7 @@ section.form .container {
 }
 #header3-1r .mbr-section-title {
   font-size: 25px;
-  color: #00162d;
+  color: #ffffff;
   font-family: 'Ubuntu', sans-serif;
 }
 #header3-1r .mbr-section-subtitle {
@@ -698,7 +701,7 @@ section.form .container {
   font-size: 19px;
 }
 #msg-box2-n .mbr-section-subtitle {
-  color: #00a2fb;
+  color: #00162d;
 }
 #msg-box2-n .btn {
   font-size: 20px;
@@ -709,10 +712,10 @@ section.form .container {
 }
 #header3-8 .mbr-section-title {
   font-size: 30px;
-  color: #00b2ff;
+  color: #ffffff;
 }
 #header3-8 .mbr-section-subtitle {
-  color: #ffffff;
+  color: #00a2fb;
 }
 #features1-a .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #00162d;
@@ -726,16 +729,12 @@ section.form .container {
 #features1-b .mbr-cards-col:nth-child(odd) .card-text {
   color: #ffffff;
 }
-#header3-c .mbr-section-title,
-#header3-c .mbr-section-subtitle {
-  text-align: center;
-}
 #header3-1a .mbr-section-title,
 #header3-1a .mbr-section-subtitle {
   text-align: center;
 }
 #header3-1a .mbr-section-title {
-  color: #ffffff;
+  color: #00162d;
   font-size: 25px;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -747,13 +746,6 @@ section.form .container {
 #header3-1a .mbr-section-subtitle B {
   font-size: 32px;
   font-family: 'Raleway', sans-serif;
-}
-#header3-7 .mbr-section-title,
-#header3-7 .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-7 .mbr-section-title {
-  font-size: 20px;
 }
 #features1-1b .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #ffffff;
@@ -780,7 +772,7 @@ section.form .container {
 }
 #header3-f .mbr-section-title {
   font-size: 30px;
-  color: #00162d;
+  color: #ffffff;
 }
 #contacts1-1k P {
   color: #ffffff;
@@ -788,20 +780,6 @@ section.form .container {
 #contacts1-1k B {
   font-family: 'Noto Sans', sans-serif;
   font-size: 14px;
-}
-#msg-box8-1p .mbr-section-title,
-#msg-box8-1p .lead {
-  color: #fff;
-}
-#msg-box8-1p .mbr-section-title {
-  color: #ffffff;
-  font-size: 22px;
-}
-#msg-box8-1p .lead {
-  color: #009cdf;
-}
-#msg-box8-1p .lead P {
-  font-size: 20px;
 }
 
 
