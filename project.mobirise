@@ -33,7 +33,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.6",
     "siteFonts": [],
-    "uniqCompNum": 58,
+    "uniqCompNum": 61,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "noImageResize": null,
@@ -552,22 +552,199 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "font-size": "20px"
+              "font-size": "30px",
+              "color": "#00b2ff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
             }
           },
           "_params": {
             "showMeta": true,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff"
+            "bgColor": "#00162d"
           },
           "title": "O que você terá acesso na lista de fornecedores?",
-          "meta": "",
+          "meta": "<p class=\"m-0 text-80 tw700 theight ts1n\" style=\"line-height: 0.9;\" id=\"secondss\">Confira alguns dos produtos de Top fornecedores ocultos que você vai encontrar na lista !</p>",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
           "_anchor": "header3-8"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 1,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "filterBgColor": true,
+            "bgColor": "#000000",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bike-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/code-man.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/code-man-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/coworkers.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/coworkers-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/desktop.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/desktop-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/room-laptop-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/table.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/table-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/windows-books.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/windows-books-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/working-area.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/working-area-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "allItem": "All",
+          "_name": "gallery3",
+          "_anchor": "gallery3-1o"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": 5,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/man-back.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "IMAGE SLIDER",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/bridge.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "BACKGROUND VIDEO",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sparklers.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "BOOTSTRAP SLIDER",
+                "overlay": true,
+                "contentAlign": "right",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_anchor": "slider3-1n"
         },
         {
           "_params": {
@@ -576,7 +753,7 @@
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": false,
-            "columnsColor": "#000000",
+            "columnsColor": "#00162d",
             "paddingTop": 2,
             "paddingBottom": 2,
             "columns": "6",
@@ -690,7 +867,7 @@
           "_anchor": "features1-a",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#000000"
+              "background-color": "#00162d"
             },
             ".mbr-cards-col:nth-child(odd) .card-title": {
               "font-size": "20px"
@@ -704,7 +881,7 @@
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": false,
-            "columnsColor": "#000000",
+            "columnsColor": "#00162d",
             "paddingTop": 2,
             "paddingBottom": 2,
             "columns": "5",
@@ -814,7 +991,7 @@
           "_name": "features1",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#000000"
+              "background-color": "#00162d"
             },
             ".mbr-cards-col:nth-child(odd) .card-text": {
               "color": "#ffffff"
@@ -843,124 +1020,13 @@
           "_anchor": "header3-c"
         },
         {
-          "_params": {
-            "showBullets": true,
-            "fullWidth": false,
-            "spacing": 0,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "filterBgColor": false,
-            "bgColor": "#FFFFFF",
-            "showText": false,
-            "filter": false,
-            "images": [
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/f12.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/f12-627x626.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/f11.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/f11-800x800.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Creative",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/99100720-138204227804071-7363859832960757698-n.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/99100720-138204227804071-7363859832960757698-n-708x708.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/116210713-2770413349853541-1641208698405348996-n.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/116210713-2770413349853541-1641208698405348996-n-800x742.jpeg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/room-laptop-small.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Beautiful",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/table.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/table-small.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/windows-books.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/windows-books-small.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/working-area.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/working-area-small.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here"
-              }
-            ]
-          },
-          "articleLayout": false,
-          "allItem": "All",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-18"
-        },
-        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
             },
             ".mbr-section-title": {
               "color": "#ffffff",
-              "font-size": "30px",
+              "font-size": "25px",
               "font-family": "'Ubuntu', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             },
@@ -982,8 +1048,8 @@
             "paddingBottom": "2",
             "bgColor": "#000000"
           },
-          "title": "Vantagens ao Adquirir AGORA <br>",
-          "meta": "<b style=\"font-style: normal;\">Fornecedores da Moda</b>",
+          "title": "RECAPITULANDO OS PRINCIPAIS BENEFICIOS<br>e VANTAGENS ao Adquirir AGORA a&nbsp;<br>",
+          "meta": "<b style=\"font-style: normal;\">Lista Fornecedores da Moda</b>",
           "_tags": [
             "Theme"
           ],
@@ -1116,7 +1182,7 @@
               "text-align": "center"
             },
             ".mbr-cards-col:nth-child(odd) .card-title": {
-              "color": "#0079ff",
+              "color": "#00162d",
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
               "font-size": "18px"
@@ -1125,7 +1191,7 @@
               "color": "#282828"
             },
             ".mbr-cards-col:nth-child(even) .card-title": {
-              "color": "#0079ff",
+              "color": "#00162d",
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
               "font-size": "18px"
@@ -1156,63 +1222,6 @@
           ],
           "_name": "image1",
           "_anchor": "image1-1c"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showSubTitle": true,
-            "labelsColor": "#232323",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "CONTACT FORM",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
-          "form": {
-            "action": "wendel.santos505@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-1j",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
         },
         {
           "_params": {
@@ -1263,7 +1272,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p><b>COMO ENTRAR EM CONTATO?</b> </p><p>Temos um e-mail para caso de problemas e dúvidas:</p></blockquote>",
+          "text": "<blockquote><p><b>POSSO COMPRAR PARCELADO NO BOLETO?</b></p><p>Não, parcelamento somente com cartão de crédito em até 12x.</p></blockquote>",
           "_tags": [
             "Theme"
           ],
@@ -1276,7 +1285,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p><b>COMO ENTRAR EM CONTATO?</b> </p><p>Temos um e-mail para caso de problemas e dúvidas:</p></blockquote>",
+          "text": "<blockquote><p><b>QUANTO TEMPO DEMORA PARA EU RECEBER MEU ACESSO?</b></p><p>Compras por cartão você recebe em até 10 minutinos.\n<span style=\"font-size: 1.07rem;\"></span></p><p>Compras por Boleto: tem prazo de compensação de 1 a 3 dias uteis.</p></blockquote>",
           "_tags": [
             "Theme"
           ],
@@ -1289,7 +1298,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p><b>COMO ENTRAR EM CONTATO?</b> </p><p>Temos um e-mail para caso de problemas e dúvidas:</p></blockquote>",
+          "text": "<blockquote><p><span style=\"font-size: 1.07rem;\"><b>OS FORNECEDORES SÃO CONFIÁVEIS?</b></span></p><p>Sim, todos os fornecedores são extremamente competentes e confiáveis foram selecionados um a um.</p></blockquote>",
           "_tags": [
             "Theme"
           ],
@@ -1302,7 +1311,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p><b>COMO ENTRAR EM CONTATO?</b> </p><p>Temos um e-mail para caso de problemas e dúvidas:</p></blockquote>",
+          "text": "<blockquote><p><span style=\"font-size: 1.07rem;\"><b>ESSA LISTA É POSSUI ATUALIZAÇÃO?</b></span></p><p>Sim, nossa lista passa por atualizaçoes onde é o <b>grande diferencial</b> de listas que tem por ai. <b>ao Adquirir você recebe sempre que for atualizada.&nbsp;</b></p></blockquote>",
           "_tags": [
             "Theme"
           ],
@@ -1315,25 +1324,12 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<blockquote><p><b>COMO ENTRAR EM CONTATO?</b> </p><p>Temos um e-mail para caso de problemas e dúvidas:</p></blockquote>",
+          "text": "<blockquote><p><span style=\"font-size: 1.07rem;\"><b>É ESTE PREÇO MESMO SÓ&nbsp;</b>Temos um e-mail para caso de problemas e dúvidas:</span><br></p></blockquote>",
           "_tags": [
             "Theme"
           ],
           "_name": "content2",
           "_anchor": "content2-k"
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<blockquote><p><b>COMO ENTRAR EM CONTATO?</b> </p><p>Temos um e-mail para caso de problemas e dúvidas:</p></blockquote>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content2",
-          "_anchor": "content2-l"
         },
         {
           "_params": {

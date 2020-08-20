@@ -620,16 +620,20 @@ section.form .container {
   text-align: center;
 }
 #header3-8 .mbr-section-title {
-  font-size: 20px;
+  font-size: 30px;
+  color: #00b2ff;
+}
+#header3-8 .mbr-section-subtitle {
+  color: #ffffff;
 }
 #features1-a .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #000000;
+  background-color: #00162d;
 }
 #features1-a .mbr-cards-col:nth-child(odd) .card-title {
   font-size: 20px;
 }
 #features1-b .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #000000;
+  background-color: #00162d;
 }
 #features1-b .mbr-cards-col:nth-child(odd) .card-text {
   color: #ffffff;
@@ -644,7 +648,7 @@ section.form .container {
 }
 #header3-1a .mbr-section-title {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Ubuntu', sans-serif;
 }
 #header3-1a .mbr-section-subtitle {
@@ -663,7 +667,7 @@ section.form .container {
   text-align: center;
 }
 #features1-1b .mbr-cards-col:nth-child(odd) .card-title {
-  color: #0079ff;
+  color: #00162d;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
@@ -671,12 +675,9 @@ section.form .container {
   color: #282828;
 }
 #features1-1b .mbr-cards-col:nth-child(even) .card-title {
-  color: #0079ff;
+  color: #00162d;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-}
-#form1-1j .form-control-label {
-  color: #232323;
 }
 #header3-f .mbr-section-title,
 #header3-f .mbr-section-subtitle {
