@@ -33,18 +33,19 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.6",
     "siteFonts": [],
-    "uniqCompNum": 76,
+    "uniqCompNum": 79,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "noImageResize": null,
     "favicon": false,
-    "robotsSwitcher": false,
+    "robotsSwitcher": true,
     "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
+    "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "imageResize": true
+    "imageResize": true,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
     "index.html": {
@@ -294,7 +295,7 @@
             "showMeta": false,
             "paddingTop": "2",
             "paddingBottom": "1",
-            "bgColor": "#efefef"
+            "bgColor": "#ffffff"
           },
           "title": "<span style=\"font-weight: normal;\">VOCÊ PASSA POR ALGUMA DAS</span> DIFICULDADES ABAIXO?<br>",
           "meta": "",
@@ -308,7 +309,7 @@
           "_params": {
             "paddingTop": "2",
             "paddingBottom": "1",
-            "bgColor": "#efefef"
+            "bgColor": "#ffffff"
           },
           "text1": "<p><b>✔ Pouco dinheiro para Investir</b></p><p><b><br></b></p><p><b>✔ Não encontra&nbsp;</b><b>Fornecedores de Confiança</b></p><p><b><br></b></p><p> \n</p><p>\n</p><p><b>✔ Dificuldade em falar com os fornecedores</b></p><p><br></p><p>\n</p><p>\n</p><p><b>✔ Margem de Lucro Baixa</b></p><p><b><br></b></p>",
           "text2": "<p><b>✔ Compras em pequena quantidade</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Fréte Caro para sua região</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Demora nas entregas</b></p><p><br></p><p><b>✔ Produtos com defeito ou sem garantia</b></p>",
@@ -364,13 +365,14 @@
         },
         {
           "_params": {
-            "showTitle": true,
-            "showText": false,
+            "showImages": true,
+            "showTitles": false,
+            "showSubtitles": false,
+            "ShowTexts": true,
             "showButtons": false,
-            "inverse": true,
-            "imageSize": "41",
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -381,226 +383,103 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": false,
-            "overlayColor": "#fff",
+            "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "media": {
+          "media1": {
             "image": {
-              "active": true,
-              "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda.com-500x338.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
               "link": "",
               "alt": "",
               "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
             }
           },
-          "title": "<span style=\"font-weight: normal;\">Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.</span>",
-          "text": "Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-e-confiavel-500x377.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/fornecedores-confiaveis-500x377.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "A mesma facilidade com que achamos bons conteúdos também os descartamos, justamente por se tratar de informações desatualizadas, fakes ou suspeitas.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "E fica ainda mais difícil quando se trata de Fornecedor de Qualidade e segurança. não é mesmo?",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Afinal, quem é que vai Entregar o Ouro sabendo que pode ganhar MUITO com isso?",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-1v",
+          "_name": "features3",
+          "_anchor": "features3-26",
           "_styles": {
-            "H3": {
-              "font-size": "25px"
-            },
-            "SPAN": {
+            "P": {
               "font-size": "18px"
             }
           }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "inverse": true,
-            "imageSize": "40",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#f5f5f5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "<span style=\"font-weight: normal;\">A mesma facilidade com que achamos bons conteúdos também os descartamos, justamente por se tratar de informações desatualizadas, fakes ou suspeitas.\n</span>",
-          "text": "Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box5",
-          "_styles": {
-            "H3": {
-              "font-size": "25px"
-            },
-            "SPAN": {
-              "font-size": "18px"
-            }
-          },
-          "_anchor": "msg-box5-1w"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "inverse": true,
-            "imageSize": "35",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#f5f5f5",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/fornecedores-confiaveis-500x377.jpg",
-              "link": "index.html",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "<span style=\"font-weight: normal;\">E fica ainda mais difícil quando se trata de Fornecedor de Qualidade e segurança. não é mesmo?</span>",
-          "text": "Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box5",
-          "_styles": {
-            "H3": {
-              "font-size": "25px"
-            },
-            "SPAN": {
-              "font-size": "18px"
-            }
-          },
-          "_anchor": "msg-box5-21"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "inverse": false,
-            "imageSize": "35",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/lista-de-fornecedoresdamoda.com-500x347.jpg",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "<span style=\"font-weight: normal;\">Afinal, quem é que vai Entregar o Ouro sabendo que pode ganhar MUITO com isso?</span>",
-          "text": "Se por um lado conseguimos achar praticamente tudo que queremos através de uma simples busca na internet, ao mesmo tempo é muito difícil separar o joio do trigo.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box5",
-          "_styles": {
-            "H3": {
-              "font-size": "25px"
-            },
-            "SPAN": {
-              "font-size": "18px"
-            }
-          },
-          "_anchor": "msg-box5-22"
         },
         {
           "_styles": {
@@ -662,7 +541,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/fornecedores-confiaveis-500x377.jpg",
+              "src": "@PROJECT_PATH@/assets/images/3qual-melhor-lista-de-fornecedores-fornecedoresdamoda.com-500x385.jpeg",
               "link": "index.html",
               "alt": "",
               "title": ""
@@ -888,7 +767,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#efefef",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1478,7 +1357,7 @@
         {
           "_params": {
             "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingBottom": "4",
             "bgColor": "#fff"
           },
           "text": "<blockquote><p><b>COMO ENTRAR EM CONTATO?</b> </p><p>Temos contato via <a href=\"https://api.whatsapp.com/send?phone=5511946612847&amp;text=Ola!%20Estou%20no%20site%20Fornecedores%20da%20moda%20quero%20saber%20mais.\">Whatsapp</a> ou um <a href=\"mailto:contato@fornecedoresdamoda.com\">e-mail</a> para caso de problemas e dúvidas:</p></blockquote>",
