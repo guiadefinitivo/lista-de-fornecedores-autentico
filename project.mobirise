@@ -114,7 +114,7 @@
             "paddingTop": "1",
             "paddingBottom": "3",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/fornecedoresdamoda.com-lista-de-fornecedores-de-roupas.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/fornecedoresdamoda.com1.png",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#F2F2F2",
