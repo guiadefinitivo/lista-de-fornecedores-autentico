@@ -731,13 +731,32 @@ section.form .container {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
-#header3-f .mbr-section-title,
-#header3-f .mbr-section-subtitle {
+#header3-2i .mbr-section-title,
+#header3-2i .mbr-section-subtitle {
   text-align: center;
 }
-#header3-f .mbr-section-title {
+#header3-2i .mbr-section-title {
   font-size: 30px;
   color: #ffffff;
+}
+#header3-2i .mbr-section-subtitle {
+  color: #ffffff;
+}
+#msg-box4-2h P {
+  font-size: 25px;
+  color: #00162d;
+  text-align: left;
+}
+#msg-box4-2a P {
+  font-size: 25px;
+  color: #00162d;
+}
+#header3-27 .mbr-section-title,
+#header3-27 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-27 .mbr-section-title {
+  color: #00162d;
 }
 #contacts1-1k P {
   color: #ffffff;
