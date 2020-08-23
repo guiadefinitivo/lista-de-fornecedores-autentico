@@ -506,15 +506,15 @@ section.form .container {
   color: #ffffff;
 }
 #menu-6 .navbar-toggler {
-  color: #ffffff;
+  color: #00162d;
 }
 #menu-6 .close-icon::before,
 #menu-6 .close-icon::after {
-  background-color: #ffffff;
+  background-color: #00162d;
 }
 #menu-6 .link,
 #menu-6 .dropdown-item {
-  color: #ffffff;
+  color: #00162d;
 }
 #menu-6 .link {
   font-size: 1.55rem;
@@ -546,7 +546,7 @@ section.form .container {
   background: #00162d;
 }
 #menu-6 .bg-color.transparent .link {
-  color: #ffffff;
+  color: #00162d;
   transition: none;
 }
 #menu-6 .bg-color.transparent.opened .link {
@@ -569,7 +569,7 @@ section.form .container {
 }
 #header2-23 .mbr-section-title {
   color: #00a2fb;
-  font-size: 25px;
+  font-size: 22px;
 }
 #header2-23 .btn {
   font-size: 18px;
@@ -591,7 +591,7 @@ section.form .container {
   font-family: 'Montserrat', sans-serif;
 }
 #content6-1e .lead {
-  color: #e20d0a;
+  color: #000000;
 }
 #content6-1e .lead P {
   font-family: 'Ubuntu', sans-serif;
