@@ -1397,16 +1397,17 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "color": "#00162d"
+              "color": "#00162d",
+              "font-size": "30px"
             }
           },
           "_params": {
             "showMeta": true,
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgColor": "#ffffff"
           },
-          "title": "SÓ HOJE!\n<div>VOCÊ NÃO PAGA MENSALIDADE</div>",
+          "title": "SÓ HOJE! <span style=\"font-weight: normal;\">VOCÊ NÃO PAGA MENSALIDADE</span>",
           "meta": "Cresça, venda mais, monte seu negocio com otimos fornecedores que não vão deixar você na Mão!",
           "_tags": [
             "Theme"
