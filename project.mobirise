@@ -7,7 +7,7 @@
       "title": "Mobirise3",
       "styling": {
         "primaryColor": "#00cc2b",
-        "secondaryColor": "#bfcecb",
+        "secondaryColor": "#00a2fb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#ff7300",
@@ -33,7 +33,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.6",
     "siteFonts": [],
-    "uniqCompNum": 115,
+    "uniqCompNum": 116,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "noImageResize": null,
@@ -624,6 +624,48 @@
           "_anchor": "header3-20"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#00162d",
+              "font-size": "20px",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#28324e",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "46px"
+            },
+            ".mbr-section-subtitle B": {
+              "font-size": "32px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".mbr-section-subtitle SPAN": {
+              "font-size": "20px",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#ffffff"
+          },
+          "title": "QUAIS OS PRINCIPAIS BENEFICIOS<br>e VANTAGENS DE ADQUIRIR AGORA a FDM?<br>",
+          "meta": "<span style=\"font-style: normal;\">\"Lista Fornecedores da Moda\"</span>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-37"
+        },
+        {
           "_params": {
             "showImages": true,
             "showTitles": true,
@@ -834,30 +876,6 @@
           ],
           "_name": "header3",
           "_anchor": "header3-8"
-        },
-        {
-          "_params": {
-            "showText": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/voc-eu-1400x1980.jpg",
-              "width": 1400,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image1",
-          "_anchor": "image1-32"
         },
         {
           "_params": {
@@ -1113,48 +1131,6 @@
           "_anchor": "features1-b"
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "color": "#00162d",
-              "font-size": "25px",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#009cdf",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "46px"
-            },
-            ".mbr-section-subtitle B": {
-              "font-size": "32px",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
-            },
-            ".mbr-section-subtitle SPAN": {
-              "font-size": "20px",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            }
-          },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgColor": "#ffffff"
-          },
-          "title": "RECAPITULANDO OS PRINCIPAIS BENEFICIOS<br>e VANTAGENS ao Adquirir AGORA a<br><br>",
-          "meta": "<span style=\"font-style: normal;\">Lista Fornecedores da Moda</span>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-1a"
-        },
-        {
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
@@ -1173,6 +1149,102 @@
           ],
           "_name": "footer1",
           "_anchor": "footer1-1l"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "count": "3",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "QUEM COMPRA RECOMENDA",
+          "subtitle": "veja o que as pessoas estão falando !",
+          "testimonial": [
+            {
+              "authorName": "Taisa",
+              "authorBio": "<b style=\"font-style: normal;\">Autonomo</b><br><span style=\"font-style: normal;\">⭐️⭐️⭐️⭐️⭐️</span><b style=\"font-style: normal;\"><br></b>",
+              "text": "<p>“Eu tenho essa lista faz um mês, fiz 3 compras e chegou bem rápido e ainda consigo pegar poucas quantidades”</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Camila&nbsp;",
+              "authorBio": "<b style=\"font-style: normal;\">Sacoleira</b><br><span style=\"font-style: normal;\">⭐️⭐️⭐️⭐️⭐️</span><b style=\"font-style: normal;\"><br></b>",
+              "text": "<p>\"Simplesmente os melhores fornecedores. Lista séria com profissional de qualidade e velocidade na entrega.\" ja havia comprado outras lista mas esta realmente superou!!!</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "Diego",
+              "authorBio": "<b style=\"font-style: normal;\">Comerciante</b><br><span style=\"font-style: normal;\">⭐️⭐️⭐️⭐️⭐️</span><br>",
+              "text": "<p>\"Fornecedores atenciosos, rápidos na entrega e com um valor muito abaixo dos que eu ja trabalhava.\"</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/site-cria-fotos-realistas-de-pessoas-que-nao-existem-usando-imagens-reais-2-119x160.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": ""
+                }
+              }
+            }
+          ],
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-31",
+          "_styles": {
+            ".mbr-author-desc B": {
+              "font-size": "17px"
+            },
+            ".mbr-author-name": {
+              "color": "#00162d"
+            },
+            ".mbr-author-desc": {
+              "color": "#b8312f",
+              "font-size": "17px"
+            },
+            ".card-block": {
+              "color": "#28324e"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#00a2fb",
+              "font-size": "24px"
+            },
+            ".mbr-section-title": {
+              "font-size": "30px"
+            }
+          }
         },
         {
           "_styles": {
@@ -1315,105 +1387,9 @@
           }
         },
         {
-          "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
-            "showImages": true,
-            "showName": true,
-            "showBio": true,
-            "count": "3",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "QUEM COMPRA RECOMENDA",
-          "subtitle": "veja o que as pessoas estão falando !",
-          "testimonial": [
-            {
-              "authorName": "Taisa",
-              "authorBio": "<b style=\"font-style: normal;\">Autonomo</b><br><span style=\"font-style: normal;\">⭐️⭐️⭐️⭐️⭐️</span><b style=\"font-style: normal;\"><br></b>",
-              "text": "<p>“Eu tenho essa lista faz um mês, fiz 3 compras e chegou bem rápido e ainda consigo pegar poucas quantidades”</p>",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/face3.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              }
-            },
-            {
-              "authorName": "Camila&nbsp;",
-              "authorBio": "<b style=\"font-style: normal;\">Sacoleira</b><br><span style=\"font-style: normal;\">⭐️⭐️⭐️⭐️⭐️</span><b style=\"font-style: normal;\"><br></b>",
-              "text": "<p>\"Simplesmente os melhores fornecedores. Lista séria com profissional de qualidade e velocidade na entrega.\" ja havia comprado outras lista mas esta realmente superou!!!</p>",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/face1.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true
-                }
-              }
-            },
-            {
-              "authorName": "Diego",
-              "authorBio": "<b style=\"font-style: normal;\">Comerciante</b><br><span style=\"font-style: normal;\">⭐️⭐️⭐️⭐️⭐️</span><br>",
-              "text": "<p>\"Fornecedores atenciosos, rápidos na entrega e com um valor muito abaixo dos que eu ja trabalhava.\"</p>",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/site-cria-fotos-realistas-de-pessoas-que-nao-existem-usando-imagens-reais-2-119x160.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true,
-                  "link": "",
-                  "alt": "",
-                  "title": ""
-                }
-              }
-            }
-          ],
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials1",
-          "_anchor": "testimonials1-31",
-          "_styles": {
-            ".mbr-author-desc B": {
-              "font-size": "17px"
-            },
-            ".mbr-author-name": {
-              "color": "#00162d"
-            },
-            ".mbr-author-desc": {
-              "color": "#b8312f",
-              "font-size": "17px"
-            },
-            ".card-block": {
-              "color": "#28324e"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#00a2fb",
-              "font-size": "24px"
-            },
-            ".mbr-section-title": {
-              "font-size": "30px"
-            }
-          }
-        },
-        {
           "_styles": {
             ".mbr-section__container .mbr-section-title": {
-              "color": "#fff"
+              "color": "#ffffff"
             },
             ".mbr-section__container .mbr-section-subtitle": {
               "color": "#efefef"
@@ -1437,7 +1413,7 @@
             "secondType": "bg-primary",
             "thirdType": "hidden",
             "fourthType": "hidden",
-            "paddingTop": "2",
+            "paddingTop": "3",
             "paddingBottom": 3,
             "showButtons": true,
             "bgImageRadio": false,
@@ -1453,7 +1429,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "SÓ HOJE!\n<div>VOCÊ NÃO PAGA MENSALIDADE</div>",
+          "title": "SÓ HOJE!<br>VOCÊ NÃO PAGA MENSALIDADE",
           "subtitle": "Cresça, venda mais, monte seu negocio com otimos fornecedores que não vão deixar você na Mão!",
           "title1": "STANDARD<br>SEM ATUALIZAÇÃO",
           "title2": "PREMIUM\r<div>ATUALIZAÇÃO TRIMESTRAL</div>",
@@ -1488,7 +1464,7 @@
           "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
           "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
           "button1": "<a data-app-btn=\"true\" href=\"https://ev.braip.com/checkout/pla5p0gp/che2e5oj\" class=\"btn btn-secondary-outline btn-secondary\" data-toolbar=\"-mbrBtnMove\">QUERO ESTE PLANO</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://ev.braip.com/checkout/pla3661r/che2e5oj\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">QUERO PLANO PREMIUM</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://ev.braip.com/checkout/pla3661r/che2e5oj\" class=\"btn btn-secondary-outline btn-secondary\" data-toolbar=\"-mbrBtnMove\">QUERO PLANO PREMIUM</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
           "_tags": [

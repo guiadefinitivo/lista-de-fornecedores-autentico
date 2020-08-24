@@ -2,8 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700&display=swap);
@@ -143,8 +143,8 @@ h6,
   border-color: #00801b !important;
 }
 .btn-secondary {
-  background-color: #bfcecb;
-  border-color: #bfcecb;
+  background-color: #00a2fb;
+  border-color: #00a2fb;
   color: #ffffff;
 }
 .btn-secondary:hover,
@@ -153,14 +153,14 @@ h6,
 .btn-secondary:active,
 .btn-secondary.active {
   color: #ffffff;
-  background-color: #94ada8;
-  border-color: #94ada8;
+  background-color: #0071af;
+  border-color: #0071af;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #94ada8 !important;
-  border-color: #94ada8 !important;
+  background-color: #0071af !important;
+  border-color: #0071af !important;
 }
 .btn-info {
   background-color: #7e9b9f;
@@ -264,8 +264,8 @@ h6,
 }
 .btn-secondary-outline {
   background: none;
-  border-color: #85a29c;
-  color: #85a29c;
+  border-color: #006095;
+  color: #006095;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
@@ -273,14 +273,14 @@ h6,
 .btn-secondary-outline:active,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #bfcecb;
-  border-color: #bfcecb;
+  background-color: #00a2fb;
+  border-color: #00a2fb;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #bfcecb !important;
-  border-color: #bfcecb !important;
+  background-color: #00a2fb !important;
+  border-color: #00a2fb !important;
 }
 .btn-info-outline {
   background: none;
@@ -656,6 +656,28 @@ section.form .container {
   font-size: 21px;
   font-family: 'Lato', sans-serif;
 }
+#header3-37 .mbr-section-title,
+#header3-37 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-37 .mbr-section-title {
+  color: #00162d;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+#header3-37 .mbr-section-subtitle {
+  color: #28324e;
+  font-family: 'Oswald', sans-serif;
+  font-size: 46px;
+}
+#header3-37 .mbr-section-subtitle B {
+  font-size: 32px;
+  font-family: 'Raleway', sans-serif;
+}
+#header3-37 .mbr-section-subtitle SPAN {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
 #features1-1b .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #ffffff;
 }
@@ -708,27 +730,25 @@ section.form .container {
 #features1-b .mbr-cards-col:nth-child(odd) .card-text {
   color: #ffffff;
 }
-#header3-1a .mbr-section-title,
-#header3-1a .mbr-section-subtitle {
-  text-align: center;
+#testimonials1-31 .mbr-author-desc B {
+  font-size: 17px;
 }
-#header3-1a .mbr-section-title {
+#testimonials1-31 .mbr-author-name {
   color: #00162d;
-  font-size: 25px;
-  font-family: 'Ubuntu', sans-serif;
 }
-#header3-1a .mbr-section-subtitle {
-  color: #009cdf;
-  font-family: 'Oswald', sans-serif;
-  font-size: 46px;
+#testimonials1-31 .mbr-author-desc {
+  color: #b8312f;
+  font-size: 17px;
 }
-#header3-1a .mbr-section-subtitle B {
-  font-size: 32px;
-  font-family: 'Raleway', sans-serif;
+#testimonials1-31 .card-block {
+  color: #28324e;
 }
-#header3-1a .mbr-section-subtitle SPAN {
-  font-size: 20px;
-  font-family: 'Ubuntu', sans-serif;
+#testimonials1-31 .mbr-section-subtitle {
+  color: #00a2fb;
+  font-size: 24px;
+}
+#testimonials1-31 .mbr-section-title {
+  font-size: 30px;
 }
 #header3-2i .mbr-section-title,
 #header3-2i .mbr-section-subtitle {
@@ -750,28 +770,8 @@ section.form .container {
   font-size: 25px;
   color: #00162d;
 }
-#testimonials1-31 .mbr-author-desc B {
-  font-size: 17px;
-}
-#testimonials1-31 .mbr-author-name {
-  color: #00162d;
-}
-#testimonials1-31 .mbr-author-desc {
-  color: #b8312f;
-  font-size: 17px;
-}
-#testimonials1-31 .card-block {
-  color: #28324e;
-}
-#testimonials1-31 .mbr-section-subtitle {
-  color: #00a2fb;
-  font-size: 24px;
-}
-#testimonials1-31 .mbr-section-title {
-  font-size: 30px;
-}
 #pricing-table1-36 .mbr-section__container .mbr-section-title {
-  color: #fff;
+  color: #ffffff;
 }
 #pricing-table1-36 .mbr-section__container .mbr-section-subtitle {
   color: #efefef;
