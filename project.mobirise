@@ -1432,7 +1432,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
             },
             ".mbr-price-figure": {
-              "color": "#000000"
+              "color": "#00162d"
             },
             ".mbr-price-term": {
               "color": "#000000"
