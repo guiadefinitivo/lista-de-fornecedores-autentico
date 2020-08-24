@@ -33,7 +33,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.6",
     "siteFonts": [],
-    "uniqCompNum": 116,
+    "uniqCompNum": 117,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "noImageResize": null,
@@ -1393,6 +1393,29 @@
         },
         {
           "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#00162d"
+          },
+          "title": "SÓ HOJE!\r<div>VOCÊ NÃO PAGA MENSALIDADE</div>",
+          "meta": "Cresça, venda mais, monte seu negocio com otimos fornecedores que não vão deixar você na Mão!",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-38"
+        },
+        {
+          "_styles": {
             ".mbr-section__container .mbr-section-title": {
               "color": "#ffffff"
             },
@@ -1412,13 +1435,13 @@
             }
           },
           "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
+            "showTitle": false,
+            "showSubtitle": false,
             "firstType": "",
             "secondType": "bg-primary",
             "thirdType": "hidden",
             "fourthType": "hidden",
-            "paddingTop": "3",
+            "paddingTop": "0",
             "paddingBottom": 3,
             "showButtons": true,
             "bgImageRadio": false,

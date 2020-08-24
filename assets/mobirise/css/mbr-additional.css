@@ -772,6 +772,13 @@ section.form .container {
   font-size: 25px;
   color: #00162d;
 }
+#header3-38 .mbr-section-title,
+#header3-38 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-38 .mbr-section-title {
+  color: #ffffff;
+}
 #pricing-table1-36 .mbr-section__container .mbr-section-title {
   color: #ffffff;
 }
