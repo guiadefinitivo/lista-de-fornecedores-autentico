@@ -33,7 +33,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.6",
     "siteFonts": [],
-    "uniqCompNum": 111,
+    "uniqCompNum": 114,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "noImageResize": null,
@@ -253,9 +253,9 @@
               "size": 250
             }
           },
-          "title": "Fornecedores da Moda",
+          "title": "FDM",
           "text": "<b>Elimine</b> as <b>Maiores Barreiras</b> que é encontrar <b>Bons Fornecedores</b>, Criamos a Melhor <b>Lista de Fornecedores</b> Para <b>Lojistas, Revendedores, Autonomos</b> e para todos que deseja começar a <b>revender produtos</b> e ter <b>lucro de até 200% </b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">QUERO TER ACESSO AOS FORNECEDORES AGORA!</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table2-33\" data-toolbar=\"-mbrBtnMove\">QUERO TER ACESSO AOS FORNECEDORES AGORA!</a>",
           "_tags": [
             "Theme"
           ],
@@ -264,10 +264,13 @@
           "_styles": {
             ".mbr-section-title": {
               "color": "#00a2fb",
-              "font-size": "22px"
+              "font-size": "36px"
             },
             ".btn": {
               "font-size": "18px"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "32px"
             }
           }
         },
@@ -576,6 +579,19 @@
           "_anchor": "msg-box5-1z"
         },
         {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#f5f5f5"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table2-33\" data-toolbar=\"-mbrBtnMove\">EU QUERO TER ACESSO AO LISTA FDM</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-35"
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -608,22 +624,21 @@
           "_anchor": "header3-20"
         },
         {
-          "_inherit": "features4",
           "_params": {
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": false,
-            "iconsBgColor": "#00a2fb",
+            "columnsColor": "#ffffff",
             "paddingTop": "1",
-            "paddingBottom": "0",
-            "columns": 4,
+            "paddingBottom": "1",
+            "columns": "6",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -633,115 +648,123 @@
             "overlayOpacity": 0.5
           },
           "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "cash",
-              "family": "MobiriseIcons",
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-saia-na-frente-da-concorrencia.jpg",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "protect",
-              "family": "MobiriseIcons",
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-lucro.jpg",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media3": {
-            "iconFont": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/v-parcerias.jpg",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "briefcase",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media4": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "phone",
-              "family": "Mobirise2",
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-compra-segura.jpg",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media5": {
-            "iconFont": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/lista-fornecedoresdamoda.com-contato.jpg",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media6": {
-            "iconFont": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/lista-fornecedoresdamoda.com-variedade.jpg",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".card-subtitle": {
-              "color": "#bcbcbc"
-            },
-            ".iconbox": {
-              "background-color": "#00a2fb",
-              "border-color": "#00a2fb"
-            },
-            "P": {
-              "font-size": "19px"
-            }
-          },
-          "title1": "LUCROS DE ATÉ 300%&nbsp;<div><br></div>",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "&nbsp;Fornecedores com os melhores preços.<br>com vendas no atacado e Varejo.<br>Para pessoa Fisica ou juridica.",
-          "title2": "LISTA EXCLUSIVA E CONFIAVEL&nbsp;",
+          "title1": "Saia na frente\n",
+          "subtitle1": "<div>\n</div><div>Saia na frente da concorrência e tenha acesso a produtos com preços que apenas 1% do mercado tem.</div>",
+          "caption1": "Saia na frente da concorrência e tenha acesso aos produtos com preços que menores direto com distribuidor e fabricante.",
+          "title2": "Alta Lucratividade",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "Fornecedores confiaveis selecionados e Aprovados para garantir otima esperiencia.<br><br>",
-          "title3": "DIVERSOS PRODUTOS",
+          "caption2": "Lucre entre 50% a 200% com a venda de produtos com grande potencial e baixa concorrência.<br>atravez de fornecedores baratos.",
+          "title3": "Melhores Parcerias",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Aumentando a diversificação em seu negocio. seja loja fisica ou online.",
-          "title4": "LINK E CONTATO DIRETO",
+          "caption3": "Tenha sucesso no seu negócio fazendo incríveis parcerias com os melhores fornecedores da &nbsp;moda no Brasil.",
+          "title4": "Mais Segurança ao comprar",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Escolhe o Fornecedor clique e ja negocie\n<br>Rapidamente de Forma Simples e Direta.<br>&nbsp;whatsapp, instagram ou pelo site.&nbsp;<br>",
-          "title5": "Trendy Website Blocks",
+          "caption4": "Compre seus produtos com segurança com fornecedores confiaveis.",
+          "title5": "Contato Rápido e Fácil",
           "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
+          "caption5": "Tenha acesso a sem burocracia direto com fornecedores: telefone, whatsapp, site e outros",
+          "title6": "Grande Variedades de Produtos",
           "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "caption6": "Fornecedores de moda feminina, moda masculina, roupas infantil, relógios, perfumes, eletrônicos, Bijuterias, maquiagens, sapatos.&nbsp;<br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_name": "features7",
-          "_anchor": "features7-5"
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "color": "#00162d",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "18px"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#282828"
+            },
+            ".mbr-cards-col:nth-child(even) .card-title": {
+              "color": "#00162d",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "features1-1b"
         },
         {
           "_styles": {
@@ -778,7 +801,7 @@
           },
           "title": "Receba a Lista com os melhores fornecedores do Brasil",
           "text": "Além do desconto especial você vai receber Bônus Exclusivos.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">QUERO MINHA LISTA AGORA!</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table2-33\" data-toolbar=\"-mbrBtnMove\">QUERO MINHA LISTA AGORA!</a>",
           "_tags": [
             "Theme"
           ],
@@ -1133,149 +1156,6 @@
         },
         {
           "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false,
-            "columnsColor": "#ffffff",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "columns": "6",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-saia-na-frente-da-concorrencia.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-lucro.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/v-parcerias.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-compra-segura.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/lista-fornecedoresdamoda.com-contato.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/lista-fornecedoresdamoda.com-variedade.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "title1": "Saia na frente\n",
-          "subtitle1": "<div>\n</div><div>Saia na frente da concorrência e tenha acesso a produtos com preços que apenas 1% do mercado tem.</div>",
-          "caption1": "Saia na frente da concorrência e tenha acesso aos produtos com preços que menores direto com distribuidor e fabricante.",
-          "title2": "Alta Lucratividade",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "Lucre entre 50% a 200% com a venda de produtos com grande potencial e baixa concorrência.<br>atravez de fornecedores baratos.",
-          "title3": "Melhores Parcerias",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Tenha sucesso no seu negócio fazendo incríveis parcerias com os melhores fornecedores da &nbsp;moda no Brasil.",
-          "title4": "Mais Segurança ao comprar",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Compre seus produtos com segurança com fornecedores confiaveis.",
-          "title5": "Contato Rápido e Fácil",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Tenha acesso a sem burocracia direto com fornecedores: telefone, whatsapp, site e outros",
-          "title6": "Grande Variedades de Produtos",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Fornecedores de moda feminina, moda masculina, roupas infantil, relógios, perfumes, eletrônicos, Bijuterias, maquiagens, sapatos.&nbsp;<br>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features1",
-          "_styles": {
-            ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#ffffff"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-title": {
-              "color": "#00162d",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "18px"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-text": {
-              "color": "#282828"
-            },
-            ".mbr-cards-col:nth-child(even) .card-title": {
-              "color": "#00162d",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "18px"
-            }
-          },
-          "_anchor": "features1-1b"
-        },
-        {
-          "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -1526,6 +1406,124 @@
               "font-size": "24px"
             }
           }
+        },
+        {
+          "_inherit": "pricing-table1",
+          "_styles": {
+            ".mbr-plan-header, .mbr-plan-body": {
+              "background-color": "#f4f4f4"
+            },
+            "ul, .mbr-plan-title, .mbr-price-value, .mbr-price-figure, .mbr-price-term": {
+              "color": "#28262b"
+            },
+            ".mbr-plan": {
+              "border-color": "#e8e8e8"
+            },
+            ".mbr-plan .list-group-item": {
+              "border-color": "#cfcfcf"
+            },
+            ".mbr-section__container .mbr-section-title": {
+              "font-size": "30px",
+              "color": "#28324e"
+            },
+            ".btn": {
+              "font-size": "14px",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            ".mbr-price-figure": {
+              "color": "#000000"
+            },
+            ".mbr-price-term": {
+              "color": "#000000"
+            },
+            ".mbr-price-value": {
+              "color": "#00162d"
+            },
+            ".mbr-plan-price-desc": {
+              "color": "#28324e"
+            },
+            ".mbr-plan-subtitle": {
+              "color": "#00162d"
+            },
+            ".mbr-plan-label": {
+              "font-size": "12px"
+            },
+            ".mbr-section__container .mbr-section-title SPAN": {
+              "font-size": "21px"
+            },
+            ".mbr-plan-list .list-group-item UL": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "10px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "firstType": "",
+            "secondType": "bg-primary",
+            "thirdType": "hidden",
+            "fourthType": "hidden",
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "description1": "PAGAMENTO ÚNICO",
+          "description2": "PAGAMENTO ÚNICO",
+          "description3": "More details",
+          "description4": "More details",
+          "button1": "<a data-app-btn=\"true\" href=\"https://ev.braip.com/checkout/pla5p0gp/che2e5oj\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">QUERO ESTE PLANO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://ev.braip.com/checkout/pla3661r/che2e5oj\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">QUERO PLANO PREMIUM</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "title": "SÓ HOJE!<br><span style=\"font-weight: normal;\"> VOCÊ NÃO PAGA MENSALIDADE</span><br>",
+          "subtitle": "Pricing table with four columns and solid color background.",
+          "title1": "STANDARD",
+          "title2": "PREMIUM",
+          "title3": "PREMIUM",
+          "title4": "ULTIMATE",
+          "subtitle1": "SEM ATUALIZAÇÃO",
+          "subtitle2": "ATUALIZAÇÃO TRIMESTRAL",
+          "subtitle3": "Description",
+          "subtitle4": "Description",
+          "label1": "HOT!",
+          "label2": "MAIS VENDIDO!",
+          "label3": "HOT!",
+          "label4": "HOT!",
+          "currency1": "R$",
+          "currency2": "R$",
+          "currency3": "$",
+          "currency4": "$",
+          "price1": "97",
+          "price2": "297,",
+          "price3": "147",
+          "price4": "0",
+          "period1": ",00",
+          "period2": "00",
+          "period3": "/mo.",
+          "period4": "/mo.",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>+ DE  300 FORNECEDORES</b></li><li class=\"list-group-item\"><b>BÔNUS EXCLUSIVOS</b></li><li class=\"list-group-item\"><b>PAGAMENTO ÚNICO</b></li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>+ DE &nbsp;300 FORNECEDORES</b></li><li class=\"list-group-item\"><b>ATUALIZAÇÃO TRIMESTRAL</b></li><li class=\"list-group-item\"><b>BÔNUS EXCLUSIVIOS</b></li><li class=\"list-group-item\"><b>PAGAMENTO ÚNICO</b></li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-33"
         },
         {
           "_styles": {
@@ -1963,13 +1961,13 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#00162d"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#00162d"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#00162d"
             },
             ".link": {
               "font-size": "1.55rem"
@@ -1990,7 +1988,7 @@
               "background": "#00162d"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#00162d",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -2184,7 +2182,7 @@
           "_tags": [
             "Theme"
           ],
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">GARANTIR MINHA VAGA</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://ev.braip.com/checkout/pla3dm81/che2e5oj\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">GARANTIR MINHA VAGA</a>",
           "_name": "msg-box3",
           "_anchor": "msg-box3-2z"
         },

@@ -2,12 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700&display=swap);
+
+
 
 
 
@@ -569,10 +571,13 @@ section.form .container {
 }
 #header2-23 .mbr-section-title {
   color: #00a2fb;
-  font-size: 22px;
+  font-size: 36px;
 }
 #header2-23 .btn {
   font-size: 18px;
+}
+#header2-23 .mbr-section-title SPAN {
+  font-size: 32px;
 }
 #header3-19 .mbr-section-title,
 #header3-19 .mbr-section-subtitle {
@@ -652,15 +657,24 @@ section.form .container {
   font-size: 21px;
   font-family: 'Lato', sans-serif;
 }
-#features7-5 .card-subtitle {
-  color: #bcbcbc;
+#features1-1b .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #ffffff;
 }
-#features7-5 .iconbox {
-  background-color: #00a2fb;
-  border-color: #00a2fb;
+#features1-1b .mbr-cards-col:nth-child(odd) .card-subtitle {
+  text-align: center;
 }
-#features7-5 P {
-  font-size: 19px;
+#features1-1b .mbr-cards-col:nth-child(odd) .card-title {
+  color: #00162d;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+#features1-1b .mbr-cards-col:nth-child(odd) .card-text {
+  color: #282828;
+}
+#features1-1b .mbr-cards-col:nth-child(even) .card-title {
+  color: #00162d;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 }
 #msg-box2-n .mbr-section-title {
   color: #000000;
@@ -717,25 +731,6 @@ section.form .container {
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
 }
-#features1-1b .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #ffffff;
-}
-#features1-1b .mbr-cards-col:nth-child(odd) .card-subtitle {
-  text-align: center;
-}
-#features1-1b .mbr-cards-col:nth-child(odd) .card-title {
-  color: #00162d;
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-}
-#features1-1b .mbr-cards-col:nth-child(odd) .card-text {
-  color: #282828;
-}
-#features1-1b .mbr-cards-col:nth-child(even) .card-title {
-  color: #00162d;
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-}
 #header3-2i .mbr-section-title,
 #header3-2i .mbr-section-subtitle {
   text-align: center;
@@ -772,6 +767,56 @@ section.form .container {
 #testimonials1-31 .mbr-section-subtitle {
   color: #00a2fb;
   font-size: 24px;
+}
+#pricing-table2-33 .mbr-plan-header,
+#pricing-table2-33 .mbr-plan-body {
+  background-color: #f4f4f4;
+}
+#pricing-table2-33 ul,
+#pricing-table2-33 .mbr-plan-title,
+#pricing-table2-33 .mbr-price-value,
+#pricing-table2-33 .mbr-price-figure,
+#pricing-table2-33 .mbr-price-term {
+  color: #28262b;
+}
+#pricing-table2-33 .mbr-plan {
+  border-color: #e8e8e8;
+}
+#pricing-table2-33 .mbr-plan .list-group-item {
+  border-color: #cfcfcf;
+}
+#pricing-table2-33 .mbr-section__container .mbr-section-title {
+  font-size: 30px;
+  color: #28324e;
+}
+#pricing-table2-33 .btn {
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+}
+#pricing-table2-33 .mbr-price-figure {
+  color: #000000;
+}
+#pricing-table2-33 .mbr-price-term {
+  color: #000000;
+}
+#pricing-table2-33 .mbr-price-value {
+  color: #00162d;
+}
+#pricing-table2-33 .mbr-plan-price-desc {
+  color: #28324e;
+}
+#pricing-table2-33 .mbr-plan-subtitle {
+  color: #00162d;
+}
+#pricing-table2-33 .mbr-plan-label {
+  font-size: 12px;
+}
+#pricing-table2-33 .mbr-section__container .mbr-section-title SPAN {
+  font-size: 21px;
+}
+#pricing-table2-33 .mbr-plan-list .list-group-item UL {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
 }
 #header3-27 .mbr-section-title,
 #header3-27 .mbr-section-subtitle {
@@ -907,15 +952,15 @@ section.form .container {
   color: #ffffff;
 }
 #menu-2k .navbar-toggler {
-  color: #ffffff;
+  color: #00162d;
 }
 #menu-2k .close-icon::before,
 #menu-2k .close-icon::after {
-  background-color: #ffffff;
+  background-color: #00162d;
 }
 #menu-2k .link,
 #menu-2k .dropdown-item {
-  color: #ffffff;
+  color: #00162d;
 }
 #menu-2k .link {
   font-size: 1.55rem;
@@ -947,7 +992,7 @@ section.form .container {
   background: #00162d;
 }
 #menu-2k .bg-color.transparent .link {
-  color: #ffffff;
+  color: #00162d;
   transition: none;
 }
 #menu-2k .bg-color.transparent.opened .link {
