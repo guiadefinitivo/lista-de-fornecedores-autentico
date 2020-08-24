@@ -664,11 +664,13 @@ section.form .container {
   color: #00162d;
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 #header3-37 .mbr-section-subtitle {
   color: #28324e;
   font-family: 'Oswald', sans-serif;
   font-size: 46px;
+  text-align: center;
 }
 #header3-37 .mbr-section-subtitle B {
   font-size: 32px;

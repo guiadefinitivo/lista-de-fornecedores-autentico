@@ -255,7 +255,7 @@
           },
           "title": "FDM",
           "text": "<b>Elimine</b> as <b>Maiores Barreiras</b> que é encontrar <b>Bons Fornecedores</b>, Criamos a Melhor <b>Lista de Fornecedores</b> Para <b>Lojistas, Revendedores, Autonomos</b> e para todos que deseja começar a <b>revender produtos</b> e ter <b>lucro de até 200% </b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table2-33\" data-toolbar=\"-mbrBtnMove\">QUERO TER ACESSO AOS FORNECEDORES AGORA!</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table1-36\" data-toolbar=\"-mbrBtnMove\">QUERO TER ACESSO AOS FORNECEDORES AGORA!</a>",
           "_tags": [
             "Theme"
           ],
@@ -584,7 +584,7 @@
             "paddingBottom": 1,
             "bgColor": "#f5f5f5"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table2-33\" data-toolbar=\"-mbrBtnMove\">EU QUERO TER ACESSO AO LISTA FDM</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table1-36\" data-toolbar=\"-mbrBtnMove\">EU QUERO TER ACESSO AO LISTA FDM</a> ",
           "_tags": [
             "Theme"
           ],
@@ -632,13 +632,15 @@
               "color": "#00162d",
               "font-size": "20px",
               "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "text-align": "center"
             },
             ".mbr-section-subtitle": {
               "color": "#28324e",
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "46px"
+              "font-size": "46px",
+              "text-align": "center"
             },
             ".mbr-section-subtitle B": {
               "font-size": "32px",
@@ -843,7 +845,7 @@
           },
           "title": "Receba a Lista com os melhores fornecedores do Brasil",
           "text": "Além do desconto especial você vai receber Bônus Exclusivos.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table2-33\" data-toolbar=\"-mbrBtnMove\">QUERO MINHA LISTA AGORA!</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table1-36\" data-toolbar=\"-mbrBtnMove\">QUERO MINHA LISTA AGORA!</a>",
           "_tags": [
             "Theme"
           ],
