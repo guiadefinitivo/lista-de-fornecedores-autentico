@@ -84,40 +84,6 @@
         },
         {
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "font-size": "25px",
-              "color": "#00162d",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#ffffff",
-              "text-align": "left"
-            },
-            ".mbr-section-subtitle B": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            }
-          },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgColor": "#ffffff"
-          },
-          "title": "<span style=\"font-weight: normal;\">Está </span>não é qualquer Lista de Fornecedores,<span style=\"font-weight: normal;\"> são os Meus Fornecedores, que possuem os </span>Melhores Preços,<span style=\"font-weight: normal;\"> destinado para quem </span>quer Vender muito<span style=\"font-weight: normal;\"> no Mercado Livre, Instagram, Loja online, OLX, Grupos de Facebook ou Lojas Físicas.</span>",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-1u"
-        },
-        {
-          "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
             },
@@ -221,7 +187,7 @@
             "showButtons": true,
             "inverse": true,
             "showArrow": true,
-            "imageSize": "48",
+            "imageSize": "63",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
             "parallax": true,
@@ -256,8 +222,8 @@
               "size": 250
             }
           },
-          "title": "FDM",
-          "text": "<b>Elimine</b> as <b>Maiores Barreiras</b> que é encontrar <b>Bons Fornecedores</b>, Criamos a Melhor <b>Lista de Fornecedores</b> Para <b>Lojistas, Revendedores, Autonomos</b> e para todos que deseja começar a <b>revender produtos</b> e ter <b>lucro de até 200% </b>",
+          "title": "<span style=\"font-weight: normal;\">Fornecedores da Moda</span>",
+          "text": "Quer saber como ter acesso aos <b>Melhores Fornecedores</b> para comprar produtos das <b>melhores marcas do mundo</b> pagando <br><b>até 4 vezes menos</b> aqui <b>diretamente do Brasil? &nbsp;</b>e com isso conseguir montar um negocio online <b>trabalhando em casa.</b>&nbsp; Vou te mostrar como ter acesso seja para você Comprar para uso Proprio ou para Revender.&nbsp;<br><br>Criamos a Melhor <b>Lista de Fornecedores</b> Para quem deseja começar a revender e ter <b>lucro de até 300%</b>&nbsp;ou comprar <b>Barato</b> e <b>Economizar muito</b> em suas compras.<b>&nbsp;</b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table1-36\" data-toolbar=\"-mbrBtnMove\">QUERO TER ACESSO AOS FORNECEDORES AGORA!</a>",
           "_tags": [
             "Theme"
@@ -266,16 +232,53 @@
           "_anchor": "header2-23",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#00a2fb",
-              "font-size": "36px"
+              "color": "#ffffff",
+              "font-size": "20px"
             },
             ".btn": {
               "font-size": "18px"
             },
             ".mbr-section-title SPAN": {
               "font-size": "32px"
+            },
+            ".mbr-section-text": {
+              "font-size": "19px"
             }
           }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px",
+              "color": "#00162d",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle B": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgColor": "#ffffff"
+          },
+          "title": "<span style=\"font-weight: normal;\">Está </span>não é qualquer Lista de Fornecedores,<span style=\"font-weight: normal;\"> nossos Fornecedores de confiança, que possuem os </span>Melhores Preços,<span style=\"font-weight: normal;\"> destinado para quem </span>quer Vender muito<span style=\"font-weight: normal;\"> no Mercado Livre, Instagram, Loja online, OLX, Grupos de Facebook ou Lojas Físicas.</span>",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1u"
         },
         {
           "_styles": {
@@ -317,8 +320,8 @@
             "paddingBottom": "1",
             "bgColor": "#ffffff"
           },
-          "text1": "<p><b>✔ Pouco dinheiro para Investir</b></p><p><b><br></b></p><p><b>✔ Não encontra&nbsp;</b><b>Fornecedores de Confiança</b></p><p><b><br></b></p><p> \n</p><p>\n</p><p><b>✔ Dificuldade em falar com os fornecedores</b></p><p><br></p><p>\n</p><p>\n</p><p><b>✔ Margem de Lucro Baixa</b></p><p><b><br></b></p>",
-          "text2": "<p><b>✔ Compras em pequena quantidade</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Fréte Caro para sua região</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Demora nas entregas</b></p><p><br></p><p><b>✔ Produtos com defeito ou sem garantia</b></p>",
+          "text1": "<p><b>✔ Pouco dinheiro para Investir</b></p><p><b><br></b></p><p><b>✔ Não encontra&nbsp;</b><b>Fornecedores de Confiança</b></p><p><b><br></b></p><p> \n</p><p>\n</p><p><b>✔ Dificuldade em falar com os fornecedores</b></p><p><br></p><p>\n</p><p>\n</p><p><b>✔ Margem de Lucro Baixa</b></p><p><b><br></b></p><p><b>✔ Quero economizar ao comprar para uso proprio</b></p><p><b>mas não acho preço bom.</b></p><p><b><br></b></p>",
+          "text2": "<p><b>✔ Compras em pequena quantidade</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Fréte Caro para sua região</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Demora nas entregas</b></p><p><br></p><p><b>✔ Produtos com defeito ou sem garantia</b></p><p><b><br></b></p><p><b>✔ Compro em minha cidade com preço muito alto</b></p><p><b><br></b></p>",
           "_tags": [
             "Theme"
           ],

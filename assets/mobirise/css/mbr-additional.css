@@ -1,6 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
@@ -484,22 +484,6 @@ section.form .container {
   flex-wrap: wrap;
   margin: 0 -15px;
 }
-#header3-1u .mbr-section-title,
-#header3-1u .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-1u .mbr-section-title {
-  font-size: 25px;
-  color: #00162d;
-  font-family: 'Ubuntu', sans-serif;
-}
-#header3-1u .mbr-section-subtitle {
-  color: #ffffff;
-  text-align: left;
-}
-#header3-1u .mbr-section-subtitle B {
-  font-family: 'Montserrat', sans-serif;
-}
 #menu-6 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -569,14 +553,33 @@ section.form .container {
   font-size: 16px;
 }
 #header2-23 .mbr-section-title {
-  color: #00a2fb;
-  font-size: 36px;
+  color: #ffffff;
+  font-size: 20px;
 }
 #header2-23 .btn {
   font-size: 18px;
 }
 #header2-23 .mbr-section-title SPAN {
   font-size: 32px;
+}
+#header2-23 .mbr-section-text {
+  font-size: 19px;
+}
+#header3-1u .mbr-section-title,
+#header3-1u .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-1u .mbr-section-title {
+  font-size: 25px;
+  color: #00162d;
+  font-family: 'Ubuntu', sans-serif;
+}
+#header3-1u .mbr-section-subtitle {
+  color: #ffffff;
+  text-align: left;
+}
+#header3-1u .mbr-section-subtitle B {
+  font-family: 'Montserrat', sans-serif;
 }
 #header3-19 .mbr-section-title,
 #header3-19 .mbr-section-subtitle {
