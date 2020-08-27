@@ -588,66 +588,6 @@ section.form .container {
   font-family: 'Ubuntu', sans-serif;
   font-size: 17px;
 }
-#header3-1t .mbr-section-title,
-#header3-1t .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-1t .mbr-section-title {
-  font-size: 25px;
-  color: #ffffff;
-  font-family: 'Ubuntu', sans-serif;
-}
-#header3-1t .mbr-section-subtitle {
-  color: #ffffff;
-  text-align: left;
-}
-#header3-1t .mbr-section-subtitle B {
-  font-family: 'Montserrat', sans-serif;
-}
-#features3-26 P {
-  font-size: 18px;
-}
-#header3-1u .mbr-section-title,
-#header3-1u .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-1u .mbr-section-title {
-  font-size: 25px;
-  color: #00162d;
-  font-family: 'Ubuntu', sans-serif;
-}
-#header3-1u .mbr-section-subtitle {
-  color: #ffffff;
-  text-align: left;
-}
-#header3-1u .mbr-section-subtitle B {
-  font-family: 'Montserrat', sans-serif;
-}
-#header3-1r .mbr-section-title,
-#header3-1r .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-1r .mbr-section-title {
-  font-size: 25px;
-  color: #ffffff;
-  font-family: 'Ubuntu', sans-serif;
-}
-#header3-1r .mbr-section-subtitle {
-  color: #ffffff;
-  text-align: left;
-}
-#header3-1r .mbr-section-subtitle B {
-  font-family: 'Montserrat', sans-serif;
-}
-#msg-box5-1z H3 {
-  font-size: 25px;
-}
-#msg-box5-1z SPAN {
-  font-size: 18px;
-}
-#buttons1-35 .btn {
-  font-size: 17px;
-}
 #header3-20 .mbr-section-title,
 #header3-20 .mbr-section-subtitle {
   text-align: center;
@@ -684,6 +624,66 @@ section.form .container {
 }
 #features1-b .mbr-cards-col:nth-child(odd) .card-text {
   color: #ffffff;
+}
+#header3-1u .mbr-section-title,
+#header3-1u .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-1u .mbr-section-title {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+}
+#header3-1u .mbr-section-subtitle {
+  color: #ffffff;
+  text-align: left;
+}
+#header3-1u .mbr-section-subtitle B {
+  font-family: 'Montserrat', sans-serif;
+}
+#header3-1t .mbr-section-title,
+#header3-1t .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-1t .mbr-section-title {
+  font-size: 25px;
+  color: #00162d;
+  font-family: 'Ubuntu', sans-serif;
+}
+#header3-1t .mbr-section-subtitle {
+  color: #ffffff;
+  text-align: left;
+}
+#header3-1t .mbr-section-subtitle B {
+  font-family: 'Montserrat', sans-serif;
+}
+#features3-26 P {
+  font-size: 18px;
+}
+#header3-1r .mbr-section-title,
+#header3-1r .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-1r .mbr-section-title {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+}
+#header3-1r .mbr-section-subtitle {
+  color: #ffffff;
+  text-align: left;
+}
+#header3-1r .mbr-section-subtitle B {
+  font-family: 'Montserrat', sans-serif;
+}
+#msg-box5-1z H3 {
+  font-size: 25px;
+}
+#msg-box5-1z SPAN {
+  font-size: 18px;
+}
+#buttons1-35 .btn {
+  font-size: 17px;
 }
 #header3-37 .mbr-section-title,
 #header3-37 .mbr-section-subtitle {
