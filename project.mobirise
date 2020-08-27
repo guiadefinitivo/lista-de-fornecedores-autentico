@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fornecedores da Moda",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -33,7 +33,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.6",
     "siteFonts": [],
-    "uniqCompNum": 121,
+    "uniqCompNum": 122,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "noImageResize": null,
@@ -128,7 +128,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#00cc2b!important"
+              "color": "#00a2fb!important"
             },
             "A": {
               "font-size": "16px",
@@ -1708,13 +1708,13 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#00162d"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#00162d"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#00162d"
             },
             ".link": {
               "font-size": "1.55rem"
@@ -1735,7 +1735,7 @@
               "background": "#00162d"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#00162d",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1745,7 +1745,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#00cc2b!important"
+              "color": "#00a2fb!important"
             },
             "A": {
               "font-size": "16px",
@@ -1802,25 +1802,68 @@
             ".mbr-section-title, .lead": {
               "color": "#fff"
             },
-            ".mbr-section-title": {
-              "color": "#ffffff",
-              "font-size": "22px"
+            ".lead P": {
+              "font-size": "21px"
             },
-            ".lead": {
-              "color": "#ffffff"
+            ".mbr-section-title": {
+              "color": "#16ff00"
             }
           },
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButton": false,
-            "paddingTop": 3,
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#000000",
+            "bgColor": "#00162d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#00a2fb",
+            "overlayOpacity": 0.5
+          },
+          "title": "Compra efetuada!",
+          "text": "<p><b>Queremos Agradecer e desejar muito sucesso em suas negociacoes!</b><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-3d"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .lead": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#00162d",
+              "font-size": "22px"
+            },
+            ".lead": {
+              "color": "#00162d"
+            },
+            ".mbr-section-title DIV": {
+              "font-size": "15px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1829,8 +1872,8 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "Fique atento(a) ao seu e-mail cadastrado, em alguns minutos voce receberá os acessos. \n<br><br><div>PASSO 1 - Pesquise em seu email por nome MONETIZZE.\n</div><div><br></div><br><div>IMPORTANTE! Verifique em sua caixa de spam, atualizaçoes.\n</div><div>Tenha certeza que digitou seu e-mail corretamente e entre em contato conosco.  99% das falhas no recebimento são por digitar o e-mail errado.\n</div><div><br></div><div>Leve em consideração que o envio pode demorar alguns minutos entre a confirmação e o sistema disparar seus arquivos e acesso.</div>",
-          "text": "<p>A melhor lista de fornecedores, selecionada especialmente para você e atender a sua demanda!</p>",
+          "title": "Fique atento(a) ao seu e-mail cadastrado, em alguns minutos voce receberá os acessos. \n<br><br><div>PASSO 1 - Pesquise em seu email por nome Braip.</div><br><div>IMPORTANTE! <span style=\"font-weight: normal;\">Verifique em sua caixa de spam, atualizaçoes.\n</span></div><div><span style=\"font-weight: normal;\">Tenha certeza que digitou seu e-mail corretamente e entre em contato conosco.  99% das falhas no recebimento são por digitar o e-mail errado.\n</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">Leve em consideração que o envio pode demorar alguns minutos entre a confirmação e o sistema disparar seu acesso.</span></div><br><br><div>(IMPORTANTE!)</div><br><div><span style=\"font-weight: normal;\">Caso tenha adquirido o</span> (PLANO COM ATUALIZAÇÃO TRIMESTRAL)</div><div><br></div><div>ENVIE PARA NOSSO SUPORTE OS DADOS;</div><div><span style=\"font-weight: normal;\">Nome, E-mail de compra, Telefone</span></div><div><span style=\"font-weight: normal;\"><br></span></div>",
+          "text": "",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "Theme"
@@ -1853,7 +1896,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "title": "Contato: Contato@fornecedoresdamoda.com",
+          "title": "Email suporte: Contato@fornecedoresdamoda.com",
           "meta": "By John Smith posted July 20, 2016",
           "_tags": [
             "Theme"

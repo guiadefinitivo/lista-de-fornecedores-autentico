@@ -543,7 +543,7 @@ section.form .container {
 }
 #menu-6 .link[aria-expanded="true"],
 #menu-6 .dropdown-item[aria-expanded="true"] {
-  color: #00cc2b!important;
+  color: #00a2fb!important;
 }
 #menu-6 A {
   font-size: 16px;
@@ -844,15 +844,15 @@ section.form .container {
   color: #ffffff;
 }
 #menu-o .navbar-toggler {
-  color: #ffffff;
+  color: #00162d;
 }
 #menu-o .close-icon::before,
 #menu-o .close-icon::after {
-  background-color: #ffffff;
+  background-color: #00162d;
 }
 #menu-o .link,
 #menu-o .dropdown-item {
-  color: #ffffff;
+  color: #00162d;
 }
 #menu-o .link {
   font-size: 1.55rem;
@@ -884,7 +884,7 @@ section.form .container {
   background: #00162d;
 }
 #menu-o .bg-color.transparent .link {
-  color: #ffffff;
+  color: #00162d;
   transition: none;
 }
 #menu-o .bg-color.transparent.opened .link {
@@ -896,7 +896,7 @@ section.form .container {
 }
 #menu-o .link[aria-expanded="true"],
 #menu-o .dropdown-item[aria-expanded="true"] {
-  color: #00cc2b!important;
+  color: #00a2fb!important;
 }
 #menu-o A {
   font-size: 16px;
@@ -905,16 +905,29 @@ section.form .container {
 #menu-o .btn {
   font-size: 16px;
 }
+#msg-box8-3d .mbr-section-title,
+#msg-box8-3d .lead {
+  color: #fff;
+}
+#msg-box8-3d .lead P {
+  font-size: 21px;
+}
+#msg-box8-3d .mbr-section-title {
+  color: #16ff00;
+}
 #msg-box8-p .mbr-section-title,
 #msg-box8-p .lead {
   color: #fff;
 }
 #msg-box8-p .mbr-section-title {
-  color: #ffffff;
+  color: #00162d;
   font-size: 22px;
 }
 #msg-box8-p .lead {
-  color: #ffffff;
+  color: #00162d;
+}
+#msg-box8-p .mbr-section-title DIV {
+  font-size: 15px;
 }
 #header3-q .mbr-section-title,
 #header3-q .mbr-section-subtitle {
