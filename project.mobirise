@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fornecedores da Moda",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -2029,7 +2029,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#00cc2b!important"
+              "color": "#00a2fb!important"
             },
             "A": {
               "font-size": "16px",
