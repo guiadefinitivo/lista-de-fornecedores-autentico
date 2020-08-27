@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise3",
       "styling": {
-        "primaryColor": "#00cc2b",
+        "primaryColor": "#00a2fb",
         "secondaryColor": "#00a2fb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -33,7 +33,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.11.6",
     "siteFonts": [],
-    "uniqCompNum": 117,
+    "uniqCompNum": 121,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "noImageResize": null,
@@ -203,7 +203,6 @@
           },
           "media": {
             "image": {
-              "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/1-500x500.png",
               "link": "",
@@ -211,10 +210,11 @@
               "title": ""
             },
             "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "src": "https://youtu.be/ZKw3kWJ3l6w",
               "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
+              "autoplay": "on",
+              "loop": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header2",
@@ -232,53 +232,19 @@
           "_anchor": "header2-23",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#ffffff",
+              "color": "#00a2fb",
               "font-size": "20px"
             },
             ".btn": {
               "font-size": "18px"
             },
             ".mbr-section-title SPAN": {
-              "font-size": "32px"
+              "font-size": "25px"
             },
             ".mbr-section-text": {
               "font-size": "19px"
             }
           }
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "font-size": "25px",
-              "color": "#00162d",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#ffffff",
-              "text-align": "left"
-            },
-            ".mbr-section-subtitle B": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            }
-          },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgColor": "#ffffff"
-          },
-          "title": "<span style=\"font-weight: normal;\">Está </span>não é qualquer Lista de Fornecedores,<span style=\"font-weight: normal;\"> nossos Fornecedores de confiança, que possuem os </span>Melhores Preços,<span style=\"font-weight: normal;\"> destinado para quem </span>quer Vender muito<span style=\"font-weight: normal;\"> no Mercado Livre, Instagram, Loja online, OLX, Grupos de Facebook ou Lojas Físicas.</span>",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-1u"
         },
         {
           "_styles": {
@@ -320,7 +286,7 @@
             "paddingBottom": "1",
             "bgColor": "#ffffff"
           },
-          "text1": "<p><b>✔ Pouco dinheiro para Investir</b></p><p><b><br></b></p><p><b>✔ Não encontra&nbsp;</b><b>Fornecedores de Confiança</b></p><p><b><br></b></p><p> \n</p><p>\n</p><p><b>✔ Dificuldade em falar com os fornecedores</b></p><p><br></p><p>\n</p><p>\n</p><p><b>✔ Margem de Lucro Baixa</b></p><p><b><br></b></p><p><b>✔ Quero economizar ao comprar para uso proprio</b></p><p><b>mas não acho preço bom.</b></p><p><b><br></b></p>",
+          "text1": "<p><b>✔ Pouco dinheiro para Investir</b></p><p><b><br></b></p><p><b>✔ Não encontra&nbsp;</b><b>Fornecedores de Confiança</b></p><p><b><br></b></p><p> \n</p><p>\n</p><p><b>✔ Dificuldade em falar com os fornecedores</b></p><p><br></p><p>\n</p><p>\n</p><p><b>✔ Margem de Lucro Baixa</b></p><p><b><br></b></p><p><b>✔ Mora em localidade distante dos grandes centros comercial</b></p><p><b><br></b></p>",
           "text2": "<p><b>✔ Compras em pequena quantidade</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Fréte Caro para sua região</b></p><p><br></p><p> \n</p><p>\n</p><p><b>✔ Demora nas entregas</b></p><p><br></p><p><b>✔ Produtos com defeito ou sem garantia</b></p><p><b><br></b></p><p><b>✔ Compro em minha cidade com preço muito alto</b></p><p><b><br></b></p>",
           "_tags": [
             "Theme"
@@ -497,6 +463,40 @@
             },
             ".mbr-section-title": {
               "font-size": "25px",
+              "color": "#00162d",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle B": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgColor": "#ffffff"
+          },
+          "title": "<span style=\"font-weight: normal;\">Está </span>não é qualquer Lista de Fornecedores,<span style=\"font-weight: normal;\"> nossos Fornecedores de confiança, que possuem os </span>Melhores Preços,<span style=\"font-weight: normal;\"> destinado para quem </span>quer Vender muito<span style=\"font-weight: normal;\"> no Mercado Livre, Instagram, Loja online, OLX, Grupos de Facebook ou Lojas Físicas.</span>",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1u"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px",
               "color": "#ffffff",
               "font-family": "'Ubuntu', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
@@ -595,7 +595,12 @@
             "Theme"
           ],
           "_name": "buttons1",
-          "_anchor": "buttons1-35"
+          "_anchor": "buttons1-35",
+          "_styles": {
+            ".btn": {
+              "font-size": "17px"
+            }
+          }
         },
         {
           "_styles": {
@@ -621,7 +626,7 @@
             "paddingBottom": "2",
             "bgColor": "#00162d"
           },
-          "title": "<span style=\"font-weight: normal;\">CHEGOU A</span> SUA VEZ <span style=\"font-weight: normal;\">DE TER ACESSO AOS</span> FORNECEDORES DA MODA <br><span style=\"font-weight: normal;\">MAIS COBIÇADOS DO</span>&nbsp;BRASIL",
+          "title": "<span style=\"font-weight: normal;\">CHEGOU A</span> SUA VEZ <span style=\"font-weight: normal;\">DE TER ACESSO AOS</span> FORNECEDORES DA MODA <span style=\"font-weight: normal;\">MAIS COBIÇADOS DO</span>&nbsp;BRASIL",
           "meta": "Através de uma lista filtrada, categorizada e atualizada.",
           "_tags": [
             "Theme"
@@ -635,28 +640,11 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "color": "#00162d",
-              "font-size": "20px",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
-              "text-align": "center"
+              "font-size": "30px",
+              "color": "#00162d"
             },
             ".mbr-section-subtitle": {
-              "color": "#28324e",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "46px",
-              "text-align": "center"
-            },
-            ".mbr-section-subtitle B": {
-              "font-size": "32px",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
-            },
-            ".mbr-section-subtitle SPAN": {
-              "font-size": "20px",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+              "color": "#28324e"
             }
           },
           "_params": {
@@ -665,220 +653,8 @@
             "paddingBottom": "2",
             "bgColor": "#ffffff"
           },
-          "title": "QUAIS OS PRINCIPAIS BENEFICIOS<br>e VANTAGENS DE ADQUIRIR AGORA a FDM?<br>",
-          "meta": "<span style=\"font-style: normal;\">\"Lista Fornecedores da Moda\"</span>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-37"
-        },
-        {
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false,
-            "columnsColor": "#ffffff",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "columns": "6",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-saia-na-frente-da-concorrencia.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-lucro.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/v-parcerias.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-compra-segura.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/lista-fornecedoresdamoda.com-contato.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/lista-fornecedoresdamoda.com-variedade.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "title1": "Saia na frente\n",
-          "subtitle1": "<div>\n</div><div>Saia na frente da concorrência e tenha acesso a produtos com preços que apenas 1% do mercado tem.</div>",
-          "caption1": "Saia na frente da concorrência e tenha acesso aos produtos com preços que menores direto com distribuidor e fabricante.",
-          "title2": "Alta Lucratividade",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "Lucre entre 50% a 200% com a venda de produtos com grande potencial e baixa concorrência.<br>atravez de fornecedores baratos.",
-          "title3": "Melhores Parcerias",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Tenha sucesso no seu negócio fazendo incríveis parcerias com os melhores fornecedores da &nbsp;moda no Brasil.",
-          "title4": "Mais Segurança ao comprar",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Compre seus produtos com segurança com fornecedores confiaveis.",
-          "title5": "Contato Rápido e Fácil",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Tenha acesso a sem burocracia direto com fornecedores: telefone, whatsapp, site e outros",
-          "title6": "Grande Variedades de Produtos",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Fornecedores de moda feminina, moda masculina, roupas infantil, relógios, perfumes, eletrônicos, Bijuterias, maquiagens, sapatos.&nbsp;<br>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features1",
-          "_styles": {
-            ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#ffffff"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-title": {
-              "color": "#00162d",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "18px"
-            },
-            ".mbr-cards-col:nth-child(odd) .card-text": {
-              "color": "#282828"
-            },
-            ".mbr-cards-col:nth-child(even) .card-title": {
-              "color": "#00162d",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "18px"
-            }
-          },
-          "_anchor": "features1-1b"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000000",
-              "font-size": "19px"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#00162d"
-            },
-            ".btn": {
-              "font-size": "20px"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "Receba a Lista com os melhores fornecedores do Brasil",
-          "text": "Além do desconto especial você vai receber Bônus Exclusivos.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table1-36\" data-toolbar=\"-mbrBtnMove\">QUERO MINHA LISTA AGORA!</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-n"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "font-size": "30px",
-              "color": "#ffffff"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#00a2fb"
-            }
-          },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgColor": "#00162d"
-          },
-          "title": "O que você terá acesso na lista de fornecedores?",
-          "meta": "<p class=\"m-0 text-80 tw700 theight ts1n\" style=\"line-height: 0.9;\" id=\"secondss\">Confira alguns dos produtos de Top fornecedores ocultos que você vai encontrar na lista !</p>",
+          "title": "O que você terá na lista de Fornecedores?<br>",
+          "meta": "<p class=\"m-0 text-80 tw700 theight ts1n\" style=\"line-height: 0.9;\" id=\"secondss\">Agora você pode comprar Barato seja para revender ou para uso proprio </p><p class=\"m-0 text-80 tw700 theight ts1n\" style=\"line-height: 0.9;\" id=\"secondss\">O melhor de Tudo sem sair de Casa</p>",
           "_tags": [
             "Theme"
           ],
@@ -1137,6 +913,235 @@
             }
           },
           "_anchor": "features1-b"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#00162d",
+              "font-size": "20px",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#28324e",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "46px",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle B": {
+              "font-size": "32px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".mbr-section-subtitle SPAN": {
+              "font-size": "20px",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#ffffff"
+          },
+          "title": "QUAIS OS PRINCIPAIS BENEFICIOS<br>e VANTAGENS DE ADQUIRIR AGORA a FDM?<br>",
+          "meta": "<span style=\"font-style: normal;\">\"Lista Fornecedores da Moda\"</span>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-37"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false,
+            "columnsColor": "#ffffff",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-saia-na-frente-da-concorrencia.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-lucro.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/v-parcerias.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/fornecedoresdamoda-compra-segura.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/lista-fornecedoresdamoda.com-contato.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/lista-fornecedoresdamoda.com-variedade.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "Saia na frente\n",
+          "subtitle1": "<div>\n</div><div>Saia na frente da concorrência e tenha acesso a produtos com preços que apenas 1% do mercado tem.</div>",
+          "caption1": "Saia na frente da concorrência e tenha acesso aos produtos com preços que menores direto com distribuidor e fabricante.",
+          "title2": "Alta Lucratividade",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Lucre entre 50% a 200% com a venda de produtos com grande potencial e baixa concorrência.<br>atravez de fornecedores baratos.",
+          "title3": "Melhores Parcerias",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Tenha sucesso no seu negócio fazendo incríveis parcerias com os melhores fornecedores da &nbsp;moda no Brasil.<br>Recebendo tudo nno seu endereço.",
+          "title4": "Mais Segurança ao comprar",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Compre seus produtos com segurança com fornecedores confiaveis.",
+          "title5": "Contato Rápido e Fácil",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Tenha acesso a sem burocracia direto com fornecedores: telefone, whatsapp, site e outro<br>a única com Atualização trimestral.",
+          "title6": "Grande Variedades de Produtos",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Fornecedores de moda feminina, moda masculina, roupas infantil, relógios, perfumes, eletrônicos, Bijuterias, maquiagens, sapatos.&nbsp;<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "color": "#00162d",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "18px"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#282828"
+            },
+            ".mbr-cards-col:nth-child(even) .card-title": {
+              "color": "#00162d",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "features1-1b"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000",
+              "font-size": "19px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#00162d"
+            },
+            ".btn": {
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Receba a Lista com os melhores fornecedores do Brasil",
+          "text": "Além do desconto especial você vai receber Bônus Exclusivos.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#pricing-table1-36\" data-toolbar=\"-mbrBtnMove\">QUERO MINHA LISTA AGORA!</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-n"
         },
         {
           "_params": {
@@ -1436,6 +1441,9 @@
             },
             ".mbr-section__container .mbr-section-title DIV": {
               "font-size": "30px"
+            },
+            ".btn": {
+              "font-size": "16px"
             }
           },
           "_params": {
@@ -1495,7 +1503,7 @@
           "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">+ DE 300 FORNECEDORES\n</span></li><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">ATUALIZAÇÃO TRIMESTRAL<b> - <i>GRÁTIS</i></b></span></li><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">BÔNUS EXCLUSIVOS</span><br></li><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">PAGAMENTO ÚNICO</span></li><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">+ SURPRESAS&nbsp;<br></span><br></li></ul>",
           "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
           "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://ev.braip.com/checkout/pla5p0gp/che2e5oj\" class=\"btn btn-secondary-outline btn-secondary\" data-toolbar=\"-mbrBtnMove\">QUERO ESTE PLANO</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://ev.braip.com/checkout/pla5p0gp/che2e5oj\" class=\"btn btn-warning-outline btn-warning\" data-toolbar=\"-mbrBtnMove\">QUERO ESTE PLANO</a>",
           "button2": "<a data-app-btn=\"true\" href=\"https://ev.braip.com/checkout/pla3661r/che2e5oj\" class=\"btn btn-secondary-outline btn-secondary\" data-toolbar=\"-mbrBtnMove\">QUERO PLANO PREMIUM</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
@@ -1647,7 +1655,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/forneced-ores-da-moda2-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/seguro-1-128x44.png",
               "width": 128,
               "active": true,
               "link": "",
@@ -1868,7 +1876,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/forneced-ores-da-moda2-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/seguro-1-128x44.png",
               "width": 128,
               "active": true,
               "link": "",
@@ -2204,7 +2212,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/forneced-ores-da-moda2-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/seguro-1-128x44.png",
               "width": 128,
               "active": true,
               "link": "",
