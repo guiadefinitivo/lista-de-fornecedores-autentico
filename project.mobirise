@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fornecedores da Moda",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
@@ -37,15 +37,16 @@
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "noImageResize": null,
-    "favicon": false,
-    "robotsSwitcher": true,
-    "sitemapSwitcher": false,
+    "favicon": "@PROJECT_PATH@/assets/images/2-128x128.png",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": false,
+    "siteUrl": "https://fornecedoresdamoda.com",
     "cookiesAlert": false,
     "gdpr": false,
     "imageResize": true,
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "google-analytics": "<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '1233107463693638');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=1233107463693638&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->"
   },
   "pages": {
     "index.html": {
@@ -156,7 +157,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/forneced-ores-da-moda-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/forneced%20ores%20da%20moda-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://fornecedoresdamoda.com",
@@ -1773,7 +1774,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/forneced-ores-da-moda-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/forneced%20ores%20da%20moda-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://fornecedoresdamoda.com",
@@ -2057,7 +2058,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/forneced-ores-da-moda-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/forneced%20ores%20da%20moda-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://fornecedoresdamoda.com",
