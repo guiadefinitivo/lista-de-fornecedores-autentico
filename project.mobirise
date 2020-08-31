@@ -1192,11 +1192,14 @@
               "text": "<p>“Eu tenho essa lista faz um mês, fiz 3 compras e chegou bem rápido e ainda consigo pegar poucas quantidades”</p>",
               "media": {
                 "image": {
-                  "src": "@PROJECT_PATH@/assets/images/face3.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/site-cria-fotos-realistas-160x156.jpg",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
-                  "active": true
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": ""
                 }
               }
             },
@@ -1206,11 +1209,14 @@
               "text": "<p>\"Simplesmente os melhores fornecedores. Lista séria com profissional de qualidade e velocidade na entrega.\" ja havia comprado outras lista mas esta realmente superou!!!</p>",
               "media": {
                 "image": {
-                  "src": "@PROJECT_PATH@/assets/images/face1.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/fabiealistas-159x160.jpg",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
-                  "active": true
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": ""
                 }
               }
             },
@@ -1445,6 +1451,21 @@
             },
             ".btn": {
               "font-size": "16px"
+            },
+            ".mbr-plan-title": {
+              "color": "#00162d"
+            },
+            ".mbr-price-value": {
+              "color": "#00162d"
+            },
+            ".mbr-price-figure": {
+              "color": "#00162d"
+            },
+            ".mbr-price-term": {
+              "color": "#00162d"
+            },
+            ".mbr-plan-list .list-group-item": {
+              "color": "#00162d"
             }
           },
           "_params": {
@@ -1461,7 +1482,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#00162d",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1472,8 +1493,8 @@
           },
           "title": "SÓ HOJE!<br>VOCÊ NÃO PAGA MENSALIDADE",
           "subtitle": "Cresça, venda mais, monte seu negocio com otimos fornecedores que não vão deixar você na Mão!",
-          "title1": "STANDARD<br>SEM ATUALIZAÇÃO",
-          "title2": "PREMIUM\r<div>ATUALIZAÇÃO TRIMESTRAL</div>",
+          "title1": "STANDARD<br>",
+          "title2": "PREMIUM",
           "title3": "PREMIUM",
           "title4": "ULTIMATE",
           "subtitle1": "",
@@ -1504,7 +1525,7 @@
           "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">+ DE 300 FORNECEDORES\n</span></li><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">ATUALIZAÇÃO TRIMESTRAL<b> - <i>GRÁTIS</i></b></span></li><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">BÔNUS EXCLUSIVOS</span><br></li><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">PAGAMENTO ÚNICO</span></li><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">+ SURPRESAS&nbsp;<br></span><br></li></ul>",
           "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
           "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://ev.braip.com/checkout/pla5p0gp/che2e5oj\" class=\"btn btn-warning-outline btn-warning\" data-toolbar=\"-mbrBtnMove\">QUERO ESTE PLANO</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://ev.braip.com/checkout/pla5p0gp/che2e5oj\" class=\"btn btn-black-outline btn-black\" data-toolbar=\"-mbrBtnMove\">QUERO ESTE PLANO</a>",
           "button2": "<a data-app-btn=\"true\" href=\"https://ev.braip.com/checkout/pla3661r/che2e5oj\" class=\"btn btn-secondary-outline btn-secondary\" data-toolbar=\"-mbrBtnMove\">QUERO PLANO PREMIUM</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",

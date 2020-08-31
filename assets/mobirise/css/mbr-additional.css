@@ -805,6 +805,21 @@ section.form .container {
 #pricing-table1-36 .btn {
   font-size: 16px;
 }
+#pricing-table1-36 .mbr-plan-title {
+  color: #00162d;
+}
+#pricing-table1-36 .mbr-price-value {
+  color: #00162d;
+}
+#pricing-table1-36 .mbr-price-figure {
+  color: #00162d;
+}
+#pricing-table1-36 .mbr-price-term {
+  color: #00162d;
+}
+#pricing-table1-36 .mbr-plan-list .list-group-item {
+  color: #00162d;
+}
 #header3-27 .mbr-section-title,
 #header3-27 .mbr-section-subtitle {
   text-align: center;
