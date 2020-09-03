@@ -770,98 +770,10 @@ section.lazy-placeholder:after {
 .cid-s9yJmvmZGK P {
   color: #767676;
 }
-.cid-s9ysF8GxRl {
+.cid-s9yKzMokVc {
   padding-top: 30px;
-  padding-bottom: 0px;
-  background-color: #001c3c;
-}
-@media (max-width: 767px) {
-  .cid-s9ysF8GxRl .content {
-    text-align: center;
-  }
-  .cid-s9ysF8GxRl .content > div:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-}
-.cid-s9ysF8GxRl .img-logo img {
-  height: 6rem;
-}
-.cid-s9ysF8GxRl .form-group,
-.cid-s9ysF8GxRl .input-group-btn {
-  padding: 0;
-}
-.cid-s9ysF8GxRl .form-control {
-  font-size: .75rem;
-  text-align: center;
-  min-width: 150px;
-}
-.cid-s9ysF8GxRl .input-group-btn .btn {
-  padding: .75rem 1.5625rem !important;
-  margin-left: .625rem;
-  text-transform: none;
-  color: #fff;
-  text-align: center;
-}
-.cid-s9ysF8GxRl .social-list {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-.cid-s9ysF8GxRl .social-list .mbr-iconfont-social {
-  font-size: 1.3rem;
-  color: #fff;
-}
-.cid-s9ysF8GxRl .social-list .soc-item {
-  margin: 0 .5rem;
-}
-.cid-s9ysF8GxRl .social-list a {
-  margin: 0;
-  opacity: .5;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
-}
-.cid-s9ysF8GxRl .social-list a:hover {
-  opacity: 1;
-}
-@media (max-width: 767px) {
-  .cid-s9ysF8GxRl .social-list {
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-}
-@media (max-width: 767px) {
-  .cid-s9ysF8GxRl .footer-lower .copyright {
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-}
-.cid-s9ysF8GxRl .footer-lower hr {
-  margin: 1rem 0;
-  border-color: #fff;
-  opacity: .05;
-}
-.cid-s9ysF8GxRl .form-group {
-  margin: 0;
-}
-@media (max-width: 767px) {
-  .cid-s9ysF8GxRl .foot-logo {
-    text-align: center !important;
-  }
-  .cid-s9ysF8GxRl .foot-title {
-    text-align: center !important;
-  }
-  .cid-s9ysF8GxRl .mbr-text {
-    text-align: center !important;
-  }
-  .cid-s9ysF8GxRl .form-group {
-    margin: 0;
-  }
-}
-.cid-s9ysF8GxRl .copyright > p {
-  text-align: center;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
 }
 .cid-s9ub3ULQuv {
   background: #0f7699;
