@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Lista Fornecedores da Moda",
-    "currentPage": "index.html",
+    "currentPage": "page3.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -90,7 +90,7 @@
     },
     "page2.html": {
       "settings": {
-        "meta_descr": "Website Generator Description",
+        "meta_descr": "Cupom especial por tempo limitado! ",
         "title": "CUPOM DESCONTO R$150",
         "order": 2
       },
@@ -1379,7 +1379,7 @@
     },
     "page3.html": {
       "settings": {
-        "meta_descr": "Website Generator Description",
+        "meta_descr": "Fornecedores da moda cupom especial",
         "title": "CUPOM DESCONTO R$50",
         "order": 3
       },
