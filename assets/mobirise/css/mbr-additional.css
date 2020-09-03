@@ -744,13 +744,17 @@ section.lazy-placeholder:after {
     width: 100% !important;
   }
 }
-.cid-s9ub7JSu9J {
+.cid-s9ykFDh1lL {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 90px;
   background-color: #001048;
 }
-.cid-s9ub7JSu9J H2 {
-  color: #ff3e00;
+.cid-s9ykFDh1lL P {
+  color: #767676;
+}
+.cid-s9ykFDh1lL .mbr-text,
+.cid-s9ykFDh1lL .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-s9ub6BfUBK {
   padding-top: 45px;
