@@ -46,15 +46,15 @@
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/2-recuperado.png",
     "robotsSwitcher": true,
-    "sitemapSwitcher": false,
+    "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": false,
+    "siteUrl": "https://fornecedoresdamoda.com/",
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 59,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
-    "google-analytics": "<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '1233107463693638');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=1233107463693638&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n\n<script>\n(function(w,d,s,t){\n    if(w._brpUp)return;w._brpUp=t;var f=d.getElementsByTagName(s)[0],j=d.createElement(s);\n    j.async=true;j.src=\"https://ev.braip.com/js/braip-booster.js?v=\"+t;\n    f.parentNode.insertBefore(j,f);\n})(window,document,'script',Date.now());\n</script>\n\n<!-- GetButton.io widget -->\n<script type=\"text/javascript\">\n    (function () {\n        var options = {\n            whatsapp: \"5511946612847\", // WhatsApp number\n            call_to_action: \"Oi, Eu Posso te Ajudar?\", // Call to action\n            position: \"right\", // Position may be 'right' or 'left'\n        };\n        var proto = document.location.protocol, host = \"getbutton.io\", url = proto + \"//static.\" + host;\n        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\n        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };\n        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\n    })();\n</script>\n<!-- /GetButton.io widget -->",
+    "google-analytics": "<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '1233107463693638');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=1233107463693638&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n\n<script>\n(function(w,d,s,t){\n    if(w._brpUp)return;w._brpUp=t;var f=d.getElementsByTagName(s)[0],j=d.createElement(s);\n    j.async=true;j.src=\"https://ev.braip.com/js/braip-booster.js?v=\"+t;\n    f.parentNode.insertBefore(j,f);\n})(window,document,'script',Date.now());\n</script>\n\n",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
@@ -310,13 +310,13 @@
             }
           },
           "_name": "video3",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#001048\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" checked condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=gQeRBqgYUTs&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" checked condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=gQeRBqgYUTs&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "saFsPYXHwU",
+          "_anchor": "video3-1j",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "video3-1j"
+          "_params": {}
         },
         {
           "alias": false,
