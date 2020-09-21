@@ -797,9 +797,8 @@ section.lazy-placeholder:after {
 }
 .cid-saFsPYXHwU {
   background: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: linear-gradient(0deg, #ffffff, #ffffff);
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 .cid-saFsPYXHwU .video-block {
   margin: auto;
@@ -808,6 +807,14 @@ section.lazy-placeholder:after {
   .cid-saFsPYXHwU .video-block {
     width: 100% !important;
   }
+}
+.cid-sbevKBMfe8 {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-sbevKBMfe8 H2 {
+  color: #232323;
 }
 .cid-sa2AfCeOmN {
   padding-top: 60px;
