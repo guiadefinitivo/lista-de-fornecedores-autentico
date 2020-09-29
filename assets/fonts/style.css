@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'Lato-Regular';
+   font-display: swap;
+   src: url('Lato-Regular/font.ttf');
+}
+@font-face {
+   font-family: 'chs_boot';
+   font-display: swap;
+   src: url('chs_boot/font.ttf');
+}
