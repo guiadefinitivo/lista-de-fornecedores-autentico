@@ -56,12 +56,12 @@
         "file": "@PROJECT_PATH@/fonts/chs_boot/font.ttf"
       }
     ],
-    "imageResize": true,
+    "imageResize": false,
     "favicon": "@PROJECT_PATH@/assets/images/2-recuperado.png",
-    "robotsSwitcher": true,
-    "sitemapSwitcher": true,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": "https://fornecedoresdamoda.com/",
+    "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 96,
