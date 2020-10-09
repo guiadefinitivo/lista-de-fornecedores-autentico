@@ -2453,11 +2453,12 @@ section.lazy-placeholder:after {
   }
 }
 .cid-scFCCioXNq {
-  background: #ffffff;
+  background: #000000;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .cid-scFCCioXNq .image-block {
   margin: auto;
-  width: 100% !important;
 }
 .cid-scFCCioXNq figcaption {
   position: relative;
