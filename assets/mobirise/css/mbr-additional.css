@@ -2624,7 +2624,7 @@ figcaption {
 }
 }
 
-.cid-sdewO6cEdc {
+.cid-sdeLe2teZh {
 
 background: @bgColor;
 & when (@fullWidth = false) {
@@ -2637,12 +2637,12 @@ background: @bgColor;
 .video-block {
   margin: auto;
   & when (@fullWidth) {
-    width: 100% !important;
+    width: 90% !important;
   }
 }
 @media (max-width: 768px) {
   .video-block {
-    width: 100% !important;
+    width: 90% !important;
   }
 }
 }
