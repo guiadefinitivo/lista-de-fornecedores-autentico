@@ -1088,8 +1088,8 @@ H3 {
 }
 
 .cid-sdeup7hP5I {
-@paddingTop: 2;
-@paddingBottom: 1;
+@paddingTop: 3;
+@paddingBottom: 2;
 @showTitle: true;
 @showSubtitle: false;
 @showButtons: false;
@@ -1793,51 +1793,9 @@ figcaption {
 }
 }
 
-.cid-sbF617ZwTb {
-@paddingTop: 1;
-@paddingBottom: 2;
-@showTitle: false;
-@showText: false;
-@cardsAmount: "1";
-@uname__10: "file:///C:/Users/Asus/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-09-02_224731/assets/images/background5.jpg";
-@uname__11: true;
-@uname__12: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #efefef;
-@overlayOpacity: 0.8;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-p {
-  color: #767676;
-  text-align: left;
-}
-.card-box {
-  padding-top: 2rem;
-}
-.card-wrapper {
-  height: 100%;
-}
-}
-
 .cid-sdevkPbh5N {
 @paddingTop: 2;
-@paddingBottom: 1;
+@paddingBottom: 2;
 @showTitle: true;
 @showSubtitle: false;
 @showButtons: false;
@@ -2679,12 +2637,12 @@ background: @bgColor;
 .video-block {
   margin: auto;
   & when (@fullWidth) {
-    width: 90% !important;
+    width: 100% !important;
   }
 }
 @media (max-width: 768px) {
   .video-block {
-    width: 90% !important;
+    width: 100% !important;
   }
 }
 }
